@@ -12,7 +12,7 @@
     "report:allure": "allure generate allure-results --clean -o reports/allure-report",
     "report:allure:open": "allure open reports/allure-report",
     "test:debug": "playwright test -c config/playwright.config.ts --debug",
-    "test:ci": "playwright test -c config/playwright.config.ts"
+    "test:ci": "playwright test -c config/playwright.config.ts --grep-invert @visual"
   },
   "repository": {
     "type": "git",

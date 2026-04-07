@@ -1,0 +1,64 @@
+name: Percy Smoke Check
+
+on:
+  workflow_dispatch:
+
+jobs:
+  percy-snapshot-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Percy token
+        run: |
+          if [ -z "$PERCY_TOKEN" ]; then
+            echo "PERCY_TOKEN no está configurado en GitHub Secrets."
+            exit 1
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run visual smoke with Percy (chromium only)
+        run: npx percy exec -- npx playwright test -c config/playwright.config.ts src/tests/visual/home.visual.spec.ts --project=chromium
+        env:
+          TEST_ENV: qa
+          HEADLESS: true
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: percy-smoke-playwright-report
+          path: reports/playwright-report
+          if-no-files-found: ignore
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: percy-smoke-test-results
+          path: test-results
+          if-no-files-found: ignore
+
+      - name: Upload Allure raw results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: percy-smoke-allure-results
+          path: allure-results
+          if-no-files-found: ignore
