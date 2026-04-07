@@ -1,0 +1,46 @@
+{
+  "name": "automation-solutions",
+  "version": "1.0.0",
+  "description": "Reusable E2E QA automation framework with Playwright, TypeScript and Percy",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test -c config/playwright.config.ts",
+    "test:headed": "playwright test -c config/playwright.config.ts --headed",
+    "test:visual": "playwright test -c config/playwright.config.ts --grep @visual",
+    "test:chrome": "playwright test -c config/playwright.config.ts --project=chromium",
+    "report": "playwright show-report reports/playwright-report",
+    "report:allure": "allure generate allure-results --clean -o reports/allure-report",
+    "report:allure:open": "allure open reports/allure-report",
+    "test:debug": "playwright test -c config/playwright.config.ts --debug",
+    "test:ci": "playwright test -c config/playwright.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyOlvs/Automation-Solutions.git"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "playwright",
+    "typescript",
+    "percy",
+    "e2e"
+  ],
+  "author": "Jonathan Olivos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyOlvs/Automation-Solutions/issues"
+  },
+  "homepage": "https://github.com/JonnyOlvs/Automation-Solutions#readme",
+  "devDependencies": {
+    "@percy/cli": "^1.31.11",
+    "@percy/playwright": "^1.1.0",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.6.0",
+    "dotenv": "^17.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
