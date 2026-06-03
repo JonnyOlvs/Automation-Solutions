@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import { currentsReporter } from "@currents/playwright";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -31,7 +32,8 @@ export default defineConfig({
   reporter: [
     ["list"],
     ["html", { outputFolder: "../reports/playwright-report", open: "never" }],
-    ["allure-playwright", { outputFolder: "allure-results", detail: true, suiteTitle: false }]
+    ["allure-playwright", { outputFolder: "allure-results", detail: true, suiteTitle: false }],
+    currentsReporter()
   ],
   outputDir: "../test-results",
   use: {
