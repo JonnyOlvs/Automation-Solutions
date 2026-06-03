@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
+      CURRENTS_PROJECT_ID: ixAdP0
       CURRENTS_RECORD_KEY: ${{ secrets.CURRENTS_RECORD_KEY }}
 
     steps:
