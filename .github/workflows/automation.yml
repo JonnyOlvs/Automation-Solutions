@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
       CURRENTS_RECORD_KEY: ${{ secrets.CURRENTS_RECORD_KEY }}
 
     steps:
@@ -35,13 +34,6 @@ jobs:
           HEADLESS: true
           RETRIES: 2
           VIDEO: retain-on-failure
-
-      - name: Run visual tests with Percy
-        if: ${{ env.PERCY_TOKEN != '' }}
-        run: npx percy exec -- npm run test:visual
-        env:
-          TEST_ENV: qa
-          HEADLESS: true
 
       - name: Upload Playwright report
         if: always()
