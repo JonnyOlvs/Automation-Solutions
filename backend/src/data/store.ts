@@ -19,7 +19,16 @@ import {
   User
 } from "../types";
 
-const MOCK_DIR = path.join(__dirname, "mock");
+/**
+ * En desarrollo local (`ts-node-dev`), __dirname apunta a backend/src/data.
+ * En produccion (Render, build con tsc), __dirname apunta a backend/dist/data.
+ *
+ * Los archivos mock viven siempre en backend/src/data/mock, no se copian a dist.
+ * Para que funcione en ambos entornos, anclamos la ruta en la raiz del backend
+ * y apuntamos explicitamente a src/data/mock.
+ */
+const BACKEND_ROOT = path.join(__dirname, "..", ".."); // src/data -> backend ; dist/data -> backend
+const MOCK_DIR = path.join(BACKEND_ROOT, "src", "data", "mock");
 const file = <T>(name: string) => new FileRepository<T>(path.join(MOCK_DIR, name));
 
 const repos = {
