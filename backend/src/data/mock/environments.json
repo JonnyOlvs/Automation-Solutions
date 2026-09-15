@@ -1,0 +1,110 @@
+[
+  {
+    "id": "env-1",
+    "projectId": "prj-alpha-ecommerce",
+    "name": "dev",
+    "baseUrl": "https://dev.ecommerce-web.com"
+  },
+  {
+    "id": "env-2",
+    "projectId": "prj-alpha-ecommerce",
+    "name": "qa",
+    "baseUrl": "https://qa.ecommerce-web.com"
+  },
+  {
+    "id": "env-3",
+    "projectId": "prj-alpha-ecommerce",
+    "name": "prod",
+    "baseUrl": "https://prod.ecommerce-web.com"
+  },
+  {
+    "id": "env-4",
+    "projectId": "prj-alpha-crm",
+    "name": "dev",
+    "baseUrl": "https://dev.crm-interno.com"
+  },
+  {
+    "id": "env-5",
+    "projectId": "prj-alpha-crm",
+    "name": "qa",
+    "baseUrl": "https://qa.crm-interno.com"
+  },
+  {
+    "id": "env-6",
+    "projectId": "prj-alpha-crm",
+    "name": "prod",
+    "baseUrl": "https://prod.crm-interno.com"
+  },
+  {
+    "id": "env-7",
+    "projectId": "prj-alpha-mobile",
+    "name": "dev",
+    "baseUrl": "https://dev.app-mobile.com"
+  },
+  {
+    "id": "env-8",
+    "projectId": "prj-alpha-mobile",
+    "name": "qa",
+    "baseUrl": "https://qa.app-mobile.com"
+  },
+  {
+    "id": "env-9",
+    "projectId": "prj-alpha-mobile",
+    "name": "prod",
+    "baseUrl": "https://prod.app-mobile.com"
+  },
+  {
+    "id": "env-10",
+    "projectId": "prj-beta-erp",
+    "name": "dev",
+    "baseUrl": "https://dev.erp-core.com"
+  },
+  {
+    "id": "env-11",
+    "projectId": "prj-beta-erp",
+    "name": "qa",
+    "baseUrl": "https://qa.erp-core.com"
+  },
+  {
+    "id": "env-12",
+    "projectId": "prj-beta-erp",
+    "name": "prod",
+    "baseUrl": "https://prod.erp-core.com"
+  },
+  {
+    "id": "env-13",
+    "projectId": "prj-beta-portal",
+    "name": "dev",
+    "baseUrl": "https://dev.portal-proveedores.com"
+  },
+  {
+    "id": "env-14",
+    "projectId": "prj-beta-portal",
+    "name": "qa",
+    "baseUrl": "https://qa.portal-proveedores.com"
+  },
+  {
+    "id": "env-15",
+    "projectId": "prj-beta-portal",
+    "name": "prod",
+    "baseUrl": "https://prod.portal-proveedores.com"
+  },
+  {
+    "id": "env-16",
+    "projectId": "prj-gamma-marketplace",
+    "name": "dev",
+    "baseUrl": "https://dev.marketplace-web.com"
+  },
+  {
+    "id": "env-17",
+    "projectId": "prj-gamma-marketplace",
+    "name": "qa",
+    "baseUrl": "https://qa.marketplace-web.com"
+  },
+  {
+    "id": "env-18",
+    "projectId": "prj-gamma-marketplace",
+    "name": "prod",
+    "baseUrl": "https://prod.marketplace-web.com"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cov-prj-alpha-ecommerce",
+    "projectId": "prj-alpha-ecommerce",
+    "automatedCases": 31,
+    "manualCases": 18,
+    "pendingCases": 12,
+    "updatedAt": "2026-08-25T08:00:26.000Z"
+  },
+  {
+    "id": "cov-prj-alpha-crm",
+    "projectId": "prj-alpha-crm",
+    "automatedCases": 96,
+    "manualCases": 20,
+    "pendingCases": 18,
+    "updatedAt": "2026-08-23T08:00:04.000Z"
+  },
+  {
+    "id": "cov-prj-alpha-mobile",
+    "projectId": "prj-alpha-mobile",
+    "automatedCases": 93,
+    "manualCases": 23,
+    "pendingCases": 4,
+    "updatedAt": "2026-08-24T08:00:06.000Z"
+  },
+  {
+    "id": "cov-prj-beta-erp",
+    "projectId": "prj-beta-erp",
+    "automatedCases": 62,
+    "manualCases": 19,
+    "pendingCases": 6,
+    "updatedAt": "2026-08-25T08:00:39.000Z"
+  },
+  {
+    "id": "cov-prj-beta-portal",
+    "projectId": "prj-beta-portal",
+    "automatedCases": 54,
+    "manualCases": 15,
+    "pendingCases": 15,
+    "updatedAt": "2026-08-23T08:00:12.000Z"
+  },
+  {
+    "id": "cov-prj-gamma-marketplace",
+    "projectId": "prj-gamma-marketplace",
+    "automatedCases": 88,
+    "manualCases": 18,
+    "pendingCases": 8,
+    "updatedAt": "2026-08-23T08:00:09.000Z"
+  }
+]

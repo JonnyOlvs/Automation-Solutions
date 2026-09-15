@@ -1,0 +1,104 @@
+[
+  {
+    "id": "suite-1",
+    "projectId": "prj-alpha-ecommerce",
+    "name": "Smoke Web",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-2",
+    "projectId": "prj-alpha-ecommerce",
+    "name": "Regresion Web",
+    "type": "regression"
+  },
+  {
+    "id": "suite-3",
+    "projectId": "prj-alpha-ecommerce",
+    "name": "Visual Web",
+    "type": "visual"
+  },
+  {
+    "id": "suite-4",
+    "projectId": "prj-alpha-crm",
+    "name": "Smoke Web",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-5",
+    "projectId": "prj-alpha-crm",
+    "name": "Regresion Web",
+    "type": "regression"
+  },
+  {
+    "id": "suite-6",
+    "projectId": "prj-alpha-crm",
+    "name": "Visual Web",
+    "type": "visual"
+  },
+  {
+    "id": "suite-7",
+    "projectId": "prj-alpha-mobile",
+    "name": "Smoke Mobile",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-8",
+    "projectId": "prj-alpha-mobile",
+    "name": "Regresion Mobile",
+    "type": "regression"
+  },
+  {
+    "id": "suite-9",
+    "projectId": "prj-beta-erp",
+    "name": "Smoke Web",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-10",
+    "projectId": "prj-beta-erp",
+    "name": "Regresion Web",
+    "type": "regression"
+  },
+  {
+    "id": "suite-11",
+    "projectId": "prj-beta-erp",
+    "name": "Visual Web",
+    "type": "visual"
+  },
+  {
+    "id": "suite-12",
+    "projectId": "prj-beta-portal",
+    "name": "Smoke Web",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-13",
+    "projectId": "prj-beta-portal",
+    "name": "Regresion Web",
+    "type": "regression"
+  },
+  {
+    "id": "suite-14",
+    "projectId": "prj-beta-portal",
+    "name": "Visual Web",
+    "type": "visual"
+  },
+  {
+    "id": "suite-15",
+    "projectId": "prj-gamma-marketplace",
+    "name": "Smoke Web",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-16",
+    "projectId": "prj-gamma-marketplace",
+    "name": "Regresion Web",
+    "type": "regression"
+  },
+  {
+    "id": "suite-17",
+    "projectId": "prj-gamma-marketplace",
+    "name": "Visual Web",
+    "type": "visual"
+  }
+]

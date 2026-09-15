@@ -1,4 +1,4 @@
-import { defineConfig, devices } from "@playwright/test";
+import { defineConfig, devices, type ReporterDescription } from "@playwright/test";
 import { currentsReporter } from "@currents/playwright";
 import dotenv from "dotenv";
 
@@ -19,6 +19,16 @@ const workers = process.env.CI ? 1 : Number(process.env.WORKERS ?? 2);
 const headless = (process.env.HEADLESS ?? "true").toLowerCase() === "true";
 const video = (process.env.VIDEO ?? "off") as "off" | "on" | "retain-on-failure";
 
+const reporters: ReporterDescription[] = [
+  ["list"],
+  ["html", { outputFolder: "../reports/playwright-report", open: "never" }],
+  ["allure-playwright", { outputFolder: "allure-results", detail: true, suiteTitle: false }]
+];
+
+if (process.env.CURRENTS_PROJECT_ID) {
+  reporters.push(currentsReporter());
+}
+
 export default defineConfig({
   testDir: "../src/tests",
   fullyParallel: true,
@@ -29,12 +39,7 @@ export default defineConfig({
   expect: {
     timeout: expectTimeout
   },
-  reporter: [
-    ["list"],
-    ["html", { outputFolder: "../reports/playwright-report", open: "never" }],
-    ["allure-playwright", { outputFolder: "allure-results", detail: true, suiteTitle: false }],
-    currentsReporter()
-  ],
+  reporter: reporters,
   outputDir: "../test-results",
   use: {
     baseURL,
@@ -47,14 +52,6 @@ export default defineConfig({
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"] }
-    },
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"] }
-    },
-    {
-      name: "webkit",
-      use: { ...devices["Desktop Safari"] }
     }
   ]
 });

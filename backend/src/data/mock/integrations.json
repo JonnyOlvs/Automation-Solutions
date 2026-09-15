@@ -1,0 +1,98 @@
+[
+  {
+    "id": "int-prj-alpha-ecommerce",
+    "projectId": "prj-alpha-ecommerce",
+    "provider": "github",
+    "repoFullName": "alpha-retail/ecommerce-web",
+    "defaultBranch": "main",
+    "connected": true,
+    "lastSyncAt": "2026-08-24T07:30:15.000Z",
+    "lastWorkflowRun": {
+      "id": "run-48094",
+      "workflow": "automation.yml",
+      "status": "cancelled",
+      "branch": "main",
+      "actor": "jolivos"
+    }
+  },
+  {
+    "id": "int-prj-alpha-crm",
+    "projectId": "prj-alpha-crm",
+    "provider": "github",
+    "repoFullName": "alpha-retail/crm-interno",
+    "defaultBranch": "main",
+    "connected": true,
+    "lastSyncAt": "2026-08-23T07:30:19.000Z",
+    "lastWorkflowRun": {
+      "id": "run-44623",
+      "workflow": "automation.yml",
+      "status": "in_progress",
+      "branch": "main",
+      "actor": "qa-bot"
+    }
+  },
+  {
+    "id": "int-prj-alpha-mobile",
+    "projectId": "prj-alpha-mobile",
+    "provider": "github",
+    "repoFullName": "alpha-retail/app-mobile",
+    "defaultBranch": "main",
+    "connected": false,
+    "lastSyncAt": "2026-08-25T07:30:13.000Z",
+    "lastWorkflowRun": {
+      "id": "run-24541",
+      "workflow": "automation.yml",
+      "status": "in_progress",
+      "branch": "main",
+      "actor": "ci-runner"
+    }
+  },
+  {
+    "id": "int-prj-beta-erp",
+    "projectId": "prj-beta-erp",
+    "provider": "github",
+    "repoFullName": "beta-mfg/erp-core",
+    "defaultBranch": "main",
+    "connected": true,
+    "lastSyncAt": "2026-08-23T07:30:46.000Z",
+    "lastWorkflowRun": {
+      "id": "run-41508",
+      "workflow": "automation.yml",
+      "status": "cancelled",
+      "branch": "main",
+      "actor": "qa-bot"
+    }
+  },
+  {
+    "id": "int-prj-beta-portal",
+    "projectId": "prj-beta-portal",
+    "provider": "github",
+    "repoFullName": "beta-mfg/portal-proveedores",
+    "defaultBranch": "main",
+    "connected": true,
+    "lastSyncAt": "2026-08-23T07:30:10.000Z",
+    "lastWorkflowRun": {
+      "id": "run-52844",
+      "workflow": "automation.yml",
+      "status": "in_progress",
+      "branch": "main",
+      "actor": "jolivos"
+    }
+  },
+  {
+    "id": "int-prj-gamma-marketplace",
+    "projectId": "prj-gamma-marketplace",
+    "provider": "github",
+    "repoFullName": "gamma-market/marketplace-web",
+    "defaultBranch": "main",
+    "connected": true,
+    "lastSyncAt": "2026-08-24T07:30:50.000Z",
+    "lastWorkflowRun": {
+      "id": "run-11539",
+      "workflow": "automation.yml",
+      "status": "in_progress",
+      "branch": "main",
+      "actor": "qa-bot"
+    }
+  }
+]

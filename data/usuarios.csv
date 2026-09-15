@@ -1,0 +1,5 @@
+nombre,email,password,rol
+admin,admin@automationsolutions.com,123456,Administrador
+qa1,qa1@automationsolutions.com,123456,QA
+automation,automation@automationsolutions.com,123456,Automation
+

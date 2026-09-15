@@ -1,0 +1,50 @@
+[
+  {
+    "id": "prj-alpha-ecommerce",
+    "clientId": "cli-alpha",
+    "name": "E-commerce Web",
+    "type": "Web",
+    "status": "active",
+    "repoFullName": "alpha-retail/ecommerce-web"
+  },
+  {
+    "id": "prj-alpha-crm",
+    "clientId": "cli-alpha",
+    "name": "CRM Interno",
+    "type": "Web",
+    "status": "active",
+    "repoFullName": "alpha-retail/crm-interno"
+  },
+  {
+    "id": "prj-alpha-mobile",
+    "clientId": "cli-alpha",
+    "name": "App Mobile",
+    "type": "Mobile",
+    "status": "paused",
+    "repoFullName": "alpha-retail/app-mobile"
+  },
+  {
+    "id": "prj-beta-erp",
+    "clientId": "cli-beta",
+    "name": "ERP Core",
+    "type": "Web",
+    "status": "active",
+    "repoFullName": "beta-mfg/erp-core"
+  },
+  {
+    "id": "prj-beta-portal",
+    "clientId": "cli-beta",
+    "name": "Portal de Proveedores",
+    "type": "Web",
+    "status": "active",
+    "repoFullName": "beta-mfg/portal-proveedores"
+  },
+  {
+    "id": "prj-gamma-marketplace",
+    "clientId": "cli-gamma",
+    "name": "Marketplace",
+    "type": "Web",
+    "status": "active",
+    "repoFullName": "gamma-market/marketplace-web"
+  }
+]

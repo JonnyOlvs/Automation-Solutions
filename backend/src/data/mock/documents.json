@@ -1,0 +1,236 @@
+[
+  {
+    "id": "doc-1",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "category": "Plan de pruebas",
+    "title": "Plan de pruebas - E-commerce Web",
+    "url": "/documentacion/prj-alpha-ecommerce/plan-de-pruebas.pdf",
+    "updatedAt": "2026-08-20T10:00:16.000Z"
+  },
+  {
+    "id": "doc-2",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "category": "Documento de cierre",
+    "title": "Documento de cierre - E-commerce Web",
+    "url": "/documentacion/prj-alpha-ecommerce/documento-de-cierre.pdf",
+    "updatedAt": "2026-07-30T10:00:48.000Z"
+  },
+  {
+    "id": "doc-3",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "category": "Estrategia de automatizacion",
+    "title": "Estrategia de automatizacion - E-commerce Web",
+    "url": "/documentacion/prj-alpha-ecommerce/estrategia-de-automatizacion.pdf",
+    "updatedAt": "2026-06-29T10:00:42.000Z"
+  },
+  {
+    "id": "doc-4",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "category": "Plan de pruebas",
+    "title": "Plan de pruebas - CRM Interno",
+    "url": "/documentacion/prj-alpha-crm/plan-de-pruebas.pdf",
+    "updatedAt": "2026-08-09T10:00:50.000Z"
+  },
+  {
+    "id": "doc-5",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "category": "Matriz de pruebas",
+    "title": "Matriz de pruebas - CRM Interno",
+    "url": "/documentacion/prj-alpha-crm/matriz-de-pruebas.pdf",
+    "updatedAt": "2026-07-14T10:00:34.000Z"
+  },
+  {
+    "id": "doc-6",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "category": "Documento de cierre",
+    "title": "Documento de cierre - CRM Interno",
+    "url": "/documentacion/prj-alpha-crm/documento-de-cierre.pdf",
+    "updatedAt": "2026-07-27T10:00:48.000Z"
+  },
+  {
+    "id": "doc-7",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "category": "Arquitectura",
+    "title": "Arquitectura - App Mobile",
+    "url": "/documentacion/prj-alpha-mobile/arquitectura.pdf",
+    "updatedAt": "2026-08-10T10:00:58.000Z"
+  },
+  {
+    "id": "doc-8",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "category": "Manual de usuario",
+    "title": "Manual de usuario - App Mobile",
+    "url": "/documentacion/prj-alpha-mobile/manual-de-usuario.pdf",
+    "updatedAt": "2026-08-05T10:00:01.000Z"
+  },
+  {
+    "id": "doc-9",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "category": "Matriz de pruebas",
+    "title": "Matriz de pruebas - App Mobile",
+    "url": "/documentacion/prj-alpha-mobile/matriz-de-pruebas.pdf",
+    "updatedAt": "2026-07-24T10:00:56.000Z"
+  },
+  {
+    "id": "doc-10",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "category": "Estrategia de automatizacion",
+    "title": "Estrategia de automatizacion - App Mobile",
+    "url": "/documentacion/prj-alpha-mobile/estrategia-de-automatizacion.pdf",
+    "updatedAt": "2026-07-01T10:00:40.000Z"
+  },
+  {
+    "id": "doc-11",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "category": "Plan de pruebas",
+    "title": "Plan de pruebas - App Mobile",
+    "url": "/documentacion/prj-alpha-mobile/plan-de-pruebas.pdf",
+    "updatedAt": "2026-07-30T10:00:48.000Z"
+  },
+  {
+    "id": "doc-12",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "category": "Documento de cierre",
+    "title": "Documento de cierre - ERP Core",
+    "url": "/documentacion/prj-beta-erp/documento-de-cierre.pdf",
+    "updatedAt": "2026-07-10T10:00:06.000Z"
+  },
+  {
+    "id": "doc-13",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "category": "Matriz de pruebas",
+    "title": "Matriz de pruebas - ERP Core",
+    "url": "/documentacion/prj-beta-erp/matriz-de-pruebas.pdf",
+    "updatedAt": "2026-08-15T10:00:07.000Z"
+  },
+  {
+    "id": "doc-14",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "category": "Manual de usuario",
+    "title": "Manual de usuario - ERP Core",
+    "url": "/documentacion/prj-beta-erp/manual-de-usuario.pdf",
+    "updatedAt": "2026-08-20T10:00:57.000Z"
+  },
+  {
+    "id": "doc-15",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "category": "Arquitectura",
+    "title": "Arquitectura - ERP Core",
+    "url": "/documentacion/prj-beta-erp/arquitectura.pdf",
+    "updatedAt": "2026-06-26T10:00:21.000Z"
+  },
+  {
+    "id": "doc-16",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "category": "Plan de pruebas",
+    "title": "Plan de pruebas - ERP Core",
+    "url": "/documentacion/prj-beta-erp/plan-de-pruebas.pdf",
+    "updatedAt": "2026-07-11T10:00:34.000Z"
+  },
+  {
+    "id": "doc-17",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "category": "Manual de usuario",
+    "title": "Manual de usuario - Portal de Proveedores",
+    "url": "/documentacion/prj-beta-portal/manual-de-usuario.pdf",
+    "updatedAt": "2026-08-07T10:00:15.000Z"
+  },
+  {
+    "id": "doc-18",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "category": "Matriz de pruebas",
+    "title": "Matriz de pruebas - Portal de Proveedores",
+    "url": "/documentacion/prj-beta-portal/matriz-de-pruebas.pdf",
+    "updatedAt": "2026-08-10T10:00:07.000Z"
+  },
+  {
+    "id": "doc-19",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "category": "Arquitectura",
+    "title": "Arquitectura - Portal de Proveedores",
+    "url": "/documentacion/prj-beta-portal/arquitectura.pdf",
+    "updatedAt": "2026-08-02T10:00:24.000Z"
+  },
+  {
+    "id": "doc-20",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "category": "Estrategia de automatizacion",
+    "title": "Estrategia de automatizacion - Portal de Proveedores",
+    "url": "/documentacion/prj-beta-portal/estrategia-de-automatizacion.pdf",
+    "updatedAt": "2026-08-11T10:00:39.000Z"
+  },
+  {
+    "id": "doc-21",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "category": "Documento de cierre",
+    "title": "Documento de cierre - Portal de Proveedores",
+    "url": "/documentacion/prj-beta-portal/documento-de-cierre.pdf",
+    "updatedAt": "2026-07-23T10:00:29.000Z"
+  },
+  {
+    "id": "doc-22",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "category": "Documento de cierre",
+    "title": "Documento de cierre - Marketplace",
+    "url": "/documentacion/prj-gamma-marketplace/documento-de-cierre.pdf",
+    "updatedAt": "2026-08-18T10:00:28.000Z"
+  },
+  {
+    "id": "doc-23",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "category": "Matriz de pruebas",
+    "title": "Matriz de pruebas - Marketplace",
+    "url": "/documentacion/prj-gamma-marketplace/matriz-de-pruebas.pdf",
+    "updatedAt": "2026-07-04T10:00:17.000Z"
+  },
+  {
+    "id": "doc-24",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "category": "Arquitectura",
+    "title": "Arquitectura - Marketplace",
+    "url": "/documentacion/prj-gamma-marketplace/arquitectura.pdf",
+    "updatedAt": "2026-07-11T10:00:12.000Z"
+  },
+  {
+    "id": "doc-25",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "category": "Estrategia de automatizacion",
+    "title": "Estrategia de automatizacion - Marketplace",
+    "url": "/documentacion/prj-gamma-marketplace/estrategia-de-automatizacion.pdf",
+    "updatedAt": "2026-06-29T10:00:38.000Z"
+  },
+  {
+    "id": "doc-26",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "category": "Manual de usuario",
+    "title": "Manual de usuario - Marketplace",
+    "url": "/documentacion/prj-gamma-marketplace/manual-de-usuario.pdf",
+    "updatedAt": "2026-07-06T10:00:56.000Z"
+  }
+]

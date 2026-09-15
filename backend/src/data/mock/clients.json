@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cli-alpha",
+    "name": "Cliente Alpha",
+    "slug": "alpha",
+    "industry": "Retail & E-commerce",
+    "status": "active",
+    "contactEmail": "qa-lead@alpharetail.com",
+    "createdAt": "2026-01-27T09:00:52.000Z"
+  },
+  {
+    "id": "cli-beta",
+    "name": "Cliente Beta",
+    "slug": "beta",
+    "industry": "Manufactura",
+    "status": "active",
+    "contactEmail": "it@betamanufacturing.com",
+    "createdAt": "2026-03-28T09:00:22.000Z"
+  },
+  {
+    "id": "cli-gamma",
+    "name": "Cliente Gamma",
+    "slug": "gamma",
+    "industry": "Marketplace",
+    "status": "active",
+    "contactEmail": "tech@gammamarket.com",
+    "createdAt": "2026-05-27T09:00:32.000Z"
+  }
+]

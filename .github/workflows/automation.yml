@@ -27,14 +27,31 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Run E2E tests
-        run: npm run test:ci
+      - name: Run E2E tests y publicar evidencias
+        run: npm run test:ci:dash
         env:
           CI: true
           TEST_ENV: qa
           HEADLESS: true
           RETRIES: 2
           VIDEO: retain-on-failure
+          AS_PROJECT: Web
+          AS_USER: github-actions
+          AS_EXEC_NAME: "CI ${{ github.workflow }} - ${{ github.ref_name }}"
+          # Credenciales de Cloudflare R2: si no estan configuradas como Secrets,
+          # el paso simplemente omite la subida de evidencias (no falla el job).
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+
+      - name: Upload evidencias (respaldo local del run)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidencias
+          path: evidencias
+          if-no-files-found: ignore
 
       - name: Upload Playwright report
         if: always()

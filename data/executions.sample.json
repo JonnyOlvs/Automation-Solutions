@@ -1,0 +1,53 @@
+[
+  {
+    "id": "exec-2026-01-15-103015",
+    "name": "Smoke Web - Home & Login",
+    "project": "Web",
+    "date": "2026-01-15T10:30:15.000Z",
+    "durationSeconds": 180,
+    "status": "passed",
+    "browser": "chromium",
+    "user": "admin@automationsolutions.com"
+  },
+  {
+    "id": "exec-2026-01-15-113522",
+    "name": "Regression Web - Products",
+    "project": "Web",
+    "date": "2026-01-15T11:35:22.000Z",
+    "durationSeconds": 420,
+    "status": "failed",
+    "browser": "firefox",
+    "user": "qa1@automationsolutions.com"
+  },
+  {
+    "id": "exec-2026-01-16-090102",
+    "name": "API Smoke - Orders",
+    "project": "APIs",
+    "date": "2026-01-16T09:01:02.000Z",
+    "durationSeconds": 95,
+    "status": "passed",
+    "browser": "api",
+    "user": "automation@automationsolutions.com"
+  },
+  {
+    "id": "exec-2026-01-16-153045",
+    "name": "Mobile Smoke - Login",
+    "project": "Mobile",
+    "date": "2026-01-16T15:30:45.000Z",
+    "durationSeconds": 210,
+    "status": "warning",
+    "browser": "mobile",
+    "user": "qa1@automationsolutions.com"
+  },
+  {
+    "id": "exec-2026-01-17-080010",
+    "name": "Full Regression - Web",
+    "project": "Web",
+    "date": "2026-01-17T08:00:10.000Z",
+    "durationSeconds": 1800,
+    "status": "passed",
+    "browser": "chromium",
+    "user": "automation@automationsolutions.com"
+  }
+]
+

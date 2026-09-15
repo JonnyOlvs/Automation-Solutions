@@ -1,0 +1,58 @@
+[
+  {
+    "id": "usr-admin",
+    "name": "Jonathan Olivos",
+    "email": "jonathan@automatedsolutions.com",
+    "role": "admin",
+    "clientId": null
+  },
+  {
+    "id": "usr-qalead",
+    "name": "Ana Torres",
+    "email": "ana.torres@automatedsolutions.com",
+    "role": "qa_lead",
+    "clientId": null
+  },
+  {
+    "id": "usr-qaauto1",
+    "name": "Luis Ramirez",
+    "email": "luis.ramirez@automatedsolutions.com",
+    "role": "qa_automation",
+    "clientId": null
+  },
+  {
+    "id": "usr-qaauto2",
+    "name": "Sofia Mendez",
+    "email": "sofia.mendez@automatedsolutions.com",
+    "role": "qa_automation",
+    "clientId": null
+  },
+  {
+    "id": "usr-qamanual",
+    "name": "Carlos Ruiz",
+    "email": "carlos.ruiz@automatedsolutions.com",
+    "role": "qa_manual",
+    "clientId": null
+  },
+  {
+    "id": "usr-cli-alpha",
+    "name": "Cliente Alpha - Contacto",
+    "email": "qa-lead@alpharetail.com",
+    "role": "client",
+    "clientId": "cli-alpha"
+  },
+  {
+    "id": "usr-cli-beta",
+    "name": "Cliente Beta - Contacto",
+    "email": "it@betamanufacturing.com",
+    "role": "client",
+    "clientId": "cli-beta"
+  },
+  {
+    "id": "usr-cli-gamma",
+    "name": "Cliente Gamma - Contacto",
+    "email": "tech@gammamarket.com",
+    "role": "client",
+    "clientId": "cli-gamma"
+  }
+]

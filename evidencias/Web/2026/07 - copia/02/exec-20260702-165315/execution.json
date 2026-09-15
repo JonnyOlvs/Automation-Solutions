@@ -1,0 +1,10 @@
+{
+  "id": "exec-20260702-165315",
+  "name": "Playwright run - Web",
+  "project": "Web",
+  "date": "2026-07-02T22:53:15.165Z",
+  "durationSeconds": 46,
+  "status": "failed",
+  "browser": "multi",
+  "user": "Jonathan Olivos"
+}

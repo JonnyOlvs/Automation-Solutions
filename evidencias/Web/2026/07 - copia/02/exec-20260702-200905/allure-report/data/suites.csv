@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10334","debe navegar a login y mostrar campos/boton","chromium","2026-07-02","passed","2026-07-02","Login - E2E @smoke @login","","",""

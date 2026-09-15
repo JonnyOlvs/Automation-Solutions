@@ -5,6 +5,8 @@ dist/
 .env
 .env.*
 !.env.example
+!.env.production.example
+!.env.local-regresion.example
 
 # Playwright artifacts
 playwright-report/

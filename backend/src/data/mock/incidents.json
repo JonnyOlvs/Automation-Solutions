@@ -1,0 +1,132 @@
+[
+  {
+    "id": "inc-1",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "title": "Incidencia detectada en Productos",
+    "severity": "high",
+    "status": "closed",
+    "createdAt": "2026-07-11T09:00:34.000Z",
+    "closedAt": "2026-08-16T15:00:03.000Z"
+  },
+  {
+    "id": "inc-2",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "title": "Incidencia detectada en Home",
+    "severity": "critical",
+    "status": "open",
+    "createdAt": "2026-08-05T09:00:12.000Z",
+    "closedAt": null
+  },
+  {
+    "id": "inc-3",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "title": "Incidencia detectada en Oportunidades",
+    "severity": "critical",
+    "status": "closed",
+    "createdAt": "2026-08-20T09:00:01.000Z",
+    "closedAt": "2026-08-23T15:00:37.000Z"
+  },
+  {
+    "id": "inc-4",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "title": "Incidencia detectada en Home",
+    "severity": "high",
+    "status": "open",
+    "createdAt": "2026-07-24T09:00:31.000Z",
+    "closedAt": null
+  },
+  {
+    "id": "inc-5",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "title": "Incidencia detectada en Compras",
+    "severity": "high",
+    "status": "open",
+    "createdAt": "2026-07-18T09:00:58.000Z",
+    "closedAt": null
+  },
+  {
+    "id": "inc-6",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "title": "Incidencia detectada en Inventario",
+    "severity": "high",
+    "status": "closed",
+    "createdAt": "2026-08-19T09:00:58.000Z",
+    "closedAt": "2026-08-24T15:00:08.000Z"
+  },
+  {
+    "id": "inc-7",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "title": "Incidencia detectada en Ordenes",
+    "severity": "critical",
+    "status": "closed",
+    "createdAt": "2026-07-14T09:00:14.000Z",
+    "closedAt": "2026-08-20T15:00:29.000Z"
+  },
+  {
+    "id": "inc-8",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "title": "Incidencia detectada en Login",
+    "severity": "critical",
+    "status": "open",
+    "createdAt": "2026-07-19T09:00:38.000Z",
+    "closedAt": null
+  },
+  {
+    "id": "inc-9",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "title": "Incidencia detectada en Pagos",
+    "severity": "medium",
+    "status": "closed",
+    "createdAt": "2026-08-13T09:00:29.000Z",
+    "closedAt": "2026-08-19T15:00:04.000Z"
+  },
+  {
+    "id": "inc-10",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "title": "Incidencia detectada en Mensajeria",
+    "severity": "high",
+    "status": "open",
+    "createdAt": "2026-08-16T09:00:12.000Z",
+    "closedAt": null
+  },
+  {
+    "id": "inc-11",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "title": "Incidencia detectada en Busqueda",
+    "severity": "critical",
+    "status": "open",
+    "createdAt": "2026-07-21T09:00:39.000Z",
+    "closedAt": null
+  },
+  {
+    "id": "inc-12",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "title": "Incidencia detectada en Publicaciones",
+    "severity": "critical",
+    "status": "closed",
+    "createdAt": "2026-07-16T09:00:25.000Z",
+    "closedAt": "2026-08-17T15:00:41.000Z"
+  },
+  {
+    "id": "inc-13",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "title": "Incidencia detectada en Pagos",
+    "severity": "low",
+    "status": "closed",
+    "createdAt": "2026-08-15T09:00:15.000Z",
+    "closedAt": "2026-08-24T15:00:51.000Z"
+  }
+]

@@ -1,0 +1,2774 @@
+[
+  {
+    "id": "rep-1",
+    "executionId": "exec-1",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-1",
+    "url": "/mock-reports/exec-1/playwright-report/index.html"
+  },
+  {
+    "id": "rep-2",
+    "executionId": "exec-1",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-1",
+    "url": "/mock-reports/exec-1/allure-report/index.html"
+  },
+  {
+    "id": "rep-3",
+    "executionId": "exec-2",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-2",
+    "url": "/mock-reports/exec-2/playwright-report/index.html"
+  },
+  {
+    "id": "rep-4",
+    "executionId": "exec-2",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-2",
+    "url": "/mock-reports/exec-2/allure-report/index.html"
+  },
+  {
+    "id": "rep-5",
+    "executionId": "exec-3",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-3",
+    "url": "/mock-reports/exec-3/playwright-report/index.html"
+  },
+  {
+    "id": "rep-6",
+    "executionId": "exec-3",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-3",
+    "url": "/mock-reports/exec-3/allure-report/index.html"
+  },
+  {
+    "id": "rep-7",
+    "executionId": "exec-4",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-4",
+    "url": "/mock-reports/exec-4/playwright-report/index.html"
+  },
+  {
+    "id": "rep-8",
+    "executionId": "exec-4",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-4",
+    "url": "/mock-reports/exec-4/allure-report/index.html"
+  },
+  {
+    "id": "rep-9",
+    "executionId": "exec-5",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-5",
+    "url": "/mock-reports/exec-5/playwright-report/index.html"
+  },
+  {
+    "id": "rep-10",
+    "executionId": "exec-5",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-5",
+    "url": "/mock-reports/exec-5/allure-report/index.html"
+  },
+  {
+    "id": "rep-11",
+    "executionId": "exec-6",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-6",
+    "url": "/mock-reports/exec-6/playwright-report/index.html"
+  },
+  {
+    "id": "rep-12",
+    "executionId": "exec-6",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-6",
+    "url": "/mock-reports/exec-6/allure-report/index.html"
+  },
+  {
+    "id": "rep-13",
+    "executionId": "exec-7",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-7",
+    "url": "/mock-reports/exec-7/playwright-report/index.html"
+  },
+  {
+    "id": "rep-14",
+    "executionId": "exec-7",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-7",
+    "url": "/mock-reports/exec-7/allure-report/index.html"
+  },
+  {
+    "id": "rep-15",
+    "executionId": "exec-8",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-8",
+    "url": "/mock-reports/exec-8/playwright-report/index.html"
+  },
+  {
+    "id": "rep-16",
+    "executionId": "exec-8",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-8",
+    "url": "/mock-reports/exec-8/allure-report/index.html"
+  },
+  {
+    "id": "rep-17",
+    "executionId": "exec-9",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-9",
+    "url": "/mock-reports/exec-9/playwright-report/index.html"
+  },
+  {
+    "id": "rep-18",
+    "executionId": "exec-9",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-9",
+    "url": "/mock-reports/exec-9/allure-report/index.html"
+  },
+  {
+    "id": "rep-19",
+    "executionId": "exec-10",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-10",
+    "url": "/mock-reports/exec-10/playwright-report/index.html"
+  },
+  {
+    "id": "rep-20",
+    "executionId": "exec-10",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-10",
+    "url": "/mock-reports/exec-10/allure-report/index.html"
+  },
+  {
+    "id": "rep-21",
+    "executionId": "exec-11",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-11",
+    "url": "/mock-reports/exec-11/playwright-report/index.html"
+  },
+  {
+    "id": "rep-22",
+    "executionId": "exec-11",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-11",
+    "url": "/mock-reports/exec-11/allure-report/index.html"
+  },
+  {
+    "id": "rep-23",
+    "executionId": "exec-12",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-12",
+    "url": "/mock-reports/exec-12/playwright-report/index.html"
+  },
+  {
+    "id": "rep-24",
+    "executionId": "exec-12",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-12",
+    "url": "/mock-reports/exec-12/allure-report/index.html"
+  },
+  {
+    "id": "rep-25",
+    "executionId": "exec-13",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-13",
+    "url": "/mock-reports/exec-13/playwright-report/index.html"
+  },
+  {
+    "id": "rep-26",
+    "executionId": "exec-13",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-13",
+    "url": "/mock-reports/exec-13/allure-report/index.html"
+  },
+  {
+    "id": "rep-27",
+    "executionId": "exec-14",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-14",
+    "url": "/mock-reports/exec-14/playwright-report/index.html"
+  },
+  {
+    "id": "rep-28",
+    "executionId": "exec-14",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-14",
+    "url": "/mock-reports/exec-14/allure-report/index.html"
+  },
+  {
+    "id": "rep-29",
+    "executionId": "exec-15",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-15",
+    "url": "/mock-reports/exec-15/playwright-report/index.html"
+  },
+  {
+    "id": "rep-30",
+    "executionId": "exec-15",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-15",
+    "url": "/mock-reports/exec-15/allure-report/index.html"
+  },
+  {
+    "id": "rep-31",
+    "executionId": "exec-16",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-16",
+    "url": "/mock-reports/exec-16/playwright-report/index.html"
+  },
+  {
+    "id": "rep-32",
+    "executionId": "exec-16",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-16",
+    "url": "/mock-reports/exec-16/allure-report/index.html"
+  },
+  {
+    "id": "rep-33",
+    "executionId": "exec-17",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-17",
+    "url": "/mock-reports/exec-17/playwright-report/index.html"
+  },
+  {
+    "id": "rep-34",
+    "executionId": "exec-17",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-17",
+    "url": "/mock-reports/exec-17/allure-report/index.html"
+  },
+  {
+    "id": "rep-35",
+    "executionId": "exec-18",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-18",
+    "url": "/mock-reports/exec-18/playwright-report/index.html"
+  },
+  {
+    "id": "rep-36",
+    "executionId": "exec-18",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-18",
+    "url": "/mock-reports/exec-18/allure-report/index.html"
+  },
+  {
+    "id": "rep-37",
+    "executionId": "exec-19",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-19",
+    "url": "/mock-reports/exec-19/playwright-report/index.html"
+  },
+  {
+    "id": "rep-38",
+    "executionId": "exec-19",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-19",
+    "url": "/mock-reports/exec-19/allure-report/index.html"
+  },
+  {
+    "id": "rep-39",
+    "executionId": "exec-20",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-20",
+    "url": "/mock-reports/exec-20/playwright-report/index.html"
+  },
+  {
+    "id": "rep-40",
+    "executionId": "exec-20",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-20",
+    "url": "/mock-reports/exec-20/allure-report/index.html"
+  },
+  {
+    "id": "rep-41",
+    "executionId": "exec-21",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-21",
+    "url": "/mock-reports/exec-21/playwright-report/index.html"
+  },
+  {
+    "id": "rep-42",
+    "executionId": "exec-21",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-21",
+    "url": "/mock-reports/exec-21/allure-report/index.html"
+  },
+  {
+    "id": "rep-43",
+    "executionId": "exec-22",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-22",
+    "url": "/mock-reports/exec-22/playwright-report/index.html"
+  },
+  {
+    "id": "rep-44",
+    "executionId": "exec-22",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-22",
+    "url": "/mock-reports/exec-22/allure-report/index.html"
+  },
+  {
+    "id": "rep-45",
+    "executionId": "exec-23",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-23",
+    "url": "/mock-reports/exec-23/playwright-report/index.html"
+  },
+  {
+    "id": "rep-46",
+    "executionId": "exec-23",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-23",
+    "url": "/mock-reports/exec-23/allure-report/index.html"
+  },
+  {
+    "id": "rep-47",
+    "executionId": "exec-24",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-24",
+    "url": "/mock-reports/exec-24/playwright-report/index.html"
+  },
+  {
+    "id": "rep-48",
+    "executionId": "exec-24",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-24",
+    "url": "/mock-reports/exec-24/allure-report/index.html"
+  },
+  {
+    "id": "rep-49",
+    "executionId": "exec-25",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-25",
+    "url": "/mock-reports/exec-25/playwright-report/index.html"
+  },
+  {
+    "id": "rep-50",
+    "executionId": "exec-25",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-25",
+    "url": "/mock-reports/exec-25/allure-report/index.html"
+  },
+  {
+    "id": "rep-51",
+    "executionId": "exec-26",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-26",
+    "url": "/mock-reports/exec-26/playwright-report/index.html"
+  },
+  {
+    "id": "rep-52",
+    "executionId": "exec-26",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-ecommerce",
+    "type": "allure",
+    "name": "Reporte Allure - exec-26",
+    "url": "/mock-reports/exec-26/allure-report/index.html"
+  },
+  {
+    "id": "rep-53",
+    "executionId": "exec-27",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-27",
+    "url": "/mock-reports/exec-27/playwright-report/index.html"
+  },
+  {
+    "id": "rep-54",
+    "executionId": "exec-27",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-27",
+    "url": "/mock-reports/exec-27/allure-report/index.html"
+  },
+  {
+    "id": "rep-55",
+    "executionId": "exec-28",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-28",
+    "url": "/mock-reports/exec-28/playwright-report/index.html"
+  },
+  {
+    "id": "rep-56",
+    "executionId": "exec-28",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-28",
+    "url": "/mock-reports/exec-28/allure-report/index.html"
+  },
+  {
+    "id": "rep-57",
+    "executionId": "exec-29",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-29",
+    "url": "/mock-reports/exec-29/playwright-report/index.html"
+  },
+  {
+    "id": "rep-58",
+    "executionId": "exec-29",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-29",
+    "url": "/mock-reports/exec-29/allure-report/index.html"
+  },
+  {
+    "id": "rep-59",
+    "executionId": "exec-30",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-30",
+    "url": "/mock-reports/exec-30/playwright-report/index.html"
+  },
+  {
+    "id": "rep-60",
+    "executionId": "exec-30",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-30",
+    "url": "/mock-reports/exec-30/allure-report/index.html"
+  },
+  {
+    "id": "rep-61",
+    "executionId": "exec-31",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-31",
+    "url": "/mock-reports/exec-31/playwright-report/index.html"
+  },
+  {
+    "id": "rep-62",
+    "executionId": "exec-31",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-31",
+    "url": "/mock-reports/exec-31/allure-report/index.html"
+  },
+  {
+    "id": "rep-63",
+    "executionId": "exec-32",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-32",
+    "url": "/mock-reports/exec-32/playwright-report/index.html"
+  },
+  {
+    "id": "rep-64",
+    "executionId": "exec-32",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-32",
+    "url": "/mock-reports/exec-32/allure-report/index.html"
+  },
+  {
+    "id": "rep-65",
+    "executionId": "exec-33",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-33",
+    "url": "/mock-reports/exec-33/playwright-report/index.html"
+  },
+  {
+    "id": "rep-66",
+    "executionId": "exec-33",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-33",
+    "url": "/mock-reports/exec-33/allure-report/index.html"
+  },
+  {
+    "id": "rep-67",
+    "executionId": "exec-34",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-34",
+    "url": "/mock-reports/exec-34/playwright-report/index.html"
+  },
+  {
+    "id": "rep-68",
+    "executionId": "exec-34",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-34",
+    "url": "/mock-reports/exec-34/allure-report/index.html"
+  },
+  {
+    "id": "rep-69",
+    "executionId": "exec-35",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-35",
+    "url": "/mock-reports/exec-35/playwright-report/index.html"
+  },
+  {
+    "id": "rep-70",
+    "executionId": "exec-35",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-35",
+    "url": "/mock-reports/exec-35/allure-report/index.html"
+  },
+  {
+    "id": "rep-71",
+    "executionId": "exec-36",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-36",
+    "url": "/mock-reports/exec-36/playwright-report/index.html"
+  },
+  {
+    "id": "rep-72",
+    "executionId": "exec-36",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-36",
+    "url": "/mock-reports/exec-36/allure-report/index.html"
+  },
+  {
+    "id": "rep-73",
+    "executionId": "exec-37",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-37",
+    "url": "/mock-reports/exec-37/playwright-report/index.html"
+  },
+  {
+    "id": "rep-74",
+    "executionId": "exec-37",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-37",
+    "url": "/mock-reports/exec-37/allure-report/index.html"
+  },
+  {
+    "id": "rep-75",
+    "executionId": "exec-38",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-38",
+    "url": "/mock-reports/exec-38/playwright-report/index.html"
+  },
+  {
+    "id": "rep-76",
+    "executionId": "exec-38",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-38",
+    "url": "/mock-reports/exec-38/allure-report/index.html"
+  },
+  {
+    "id": "rep-77",
+    "executionId": "exec-39",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-39",
+    "url": "/mock-reports/exec-39/playwright-report/index.html"
+  },
+  {
+    "id": "rep-78",
+    "executionId": "exec-39",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-39",
+    "url": "/mock-reports/exec-39/allure-report/index.html"
+  },
+  {
+    "id": "rep-79",
+    "executionId": "exec-40",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-40",
+    "url": "/mock-reports/exec-40/playwright-report/index.html"
+  },
+  {
+    "id": "rep-80",
+    "executionId": "exec-40",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-40",
+    "url": "/mock-reports/exec-40/allure-report/index.html"
+  },
+  {
+    "id": "rep-81",
+    "executionId": "exec-41",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-41",
+    "url": "/mock-reports/exec-41/playwright-report/index.html"
+  },
+  {
+    "id": "rep-82",
+    "executionId": "exec-41",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-41",
+    "url": "/mock-reports/exec-41/allure-report/index.html"
+  },
+  {
+    "id": "rep-83",
+    "executionId": "exec-42",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-42",
+    "url": "/mock-reports/exec-42/playwright-report/index.html"
+  },
+  {
+    "id": "rep-84",
+    "executionId": "exec-42",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-42",
+    "url": "/mock-reports/exec-42/allure-report/index.html"
+  },
+  {
+    "id": "rep-85",
+    "executionId": "exec-43",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-43",
+    "url": "/mock-reports/exec-43/playwright-report/index.html"
+  },
+  {
+    "id": "rep-86",
+    "executionId": "exec-43",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-43",
+    "url": "/mock-reports/exec-43/allure-report/index.html"
+  },
+  {
+    "id": "rep-87",
+    "executionId": "exec-44",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-44",
+    "url": "/mock-reports/exec-44/playwright-report/index.html"
+  },
+  {
+    "id": "rep-88",
+    "executionId": "exec-44",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-44",
+    "url": "/mock-reports/exec-44/allure-report/index.html"
+  },
+  {
+    "id": "rep-89",
+    "executionId": "exec-45",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-45",
+    "url": "/mock-reports/exec-45/playwright-report/index.html"
+  },
+  {
+    "id": "rep-90",
+    "executionId": "exec-45",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-45",
+    "url": "/mock-reports/exec-45/allure-report/index.html"
+  },
+  {
+    "id": "rep-91",
+    "executionId": "exec-46",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-46",
+    "url": "/mock-reports/exec-46/playwright-report/index.html"
+  },
+  {
+    "id": "rep-92",
+    "executionId": "exec-46",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-46",
+    "url": "/mock-reports/exec-46/allure-report/index.html"
+  },
+  {
+    "id": "rep-93",
+    "executionId": "exec-47",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-47",
+    "url": "/mock-reports/exec-47/playwright-report/index.html"
+  },
+  {
+    "id": "rep-94",
+    "executionId": "exec-47",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-47",
+    "url": "/mock-reports/exec-47/allure-report/index.html"
+  },
+  {
+    "id": "rep-95",
+    "executionId": "exec-48",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-48",
+    "url": "/mock-reports/exec-48/playwright-report/index.html"
+  },
+  {
+    "id": "rep-96",
+    "executionId": "exec-48",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-48",
+    "url": "/mock-reports/exec-48/allure-report/index.html"
+  },
+  {
+    "id": "rep-97",
+    "executionId": "exec-49",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-49",
+    "url": "/mock-reports/exec-49/playwright-report/index.html"
+  },
+  {
+    "id": "rep-98",
+    "executionId": "exec-49",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-49",
+    "url": "/mock-reports/exec-49/allure-report/index.html"
+  },
+  {
+    "id": "rep-99",
+    "executionId": "exec-50",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-50",
+    "url": "/mock-reports/exec-50/playwright-report/index.html"
+  },
+  {
+    "id": "rep-100",
+    "executionId": "exec-50",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-crm",
+    "type": "allure",
+    "name": "Reporte Allure - exec-50",
+    "url": "/mock-reports/exec-50/allure-report/index.html"
+  },
+  {
+    "id": "rep-101",
+    "executionId": "exec-51",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-51",
+    "url": "/mock-reports/exec-51/playwright-report/index.html"
+  },
+  {
+    "id": "rep-102",
+    "executionId": "exec-51",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-51",
+    "url": "/mock-reports/exec-51/allure-report/index.html"
+  },
+  {
+    "id": "rep-103",
+    "executionId": "exec-52",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-52",
+    "url": "/mock-reports/exec-52/playwright-report/index.html"
+  },
+  {
+    "id": "rep-104",
+    "executionId": "exec-52",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-52",
+    "url": "/mock-reports/exec-52/allure-report/index.html"
+  },
+  {
+    "id": "rep-105",
+    "executionId": "exec-53",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-53",
+    "url": "/mock-reports/exec-53/playwright-report/index.html"
+  },
+  {
+    "id": "rep-106",
+    "executionId": "exec-53",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-53",
+    "url": "/mock-reports/exec-53/allure-report/index.html"
+  },
+  {
+    "id": "rep-107",
+    "executionId": "exec-54",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-54",
+    "url": "/mock-reports/exec-54/playwright-report/index.html"
+  },
+  {
+    "id": "rep-108",
+    "executionId": "exec-54",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-54",
+    "url": "/mock-reports/exec-54/allure-report/index.html"
+  },
+  {
+    "id": "rep-109",
+    "executionId": "exec-55",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-55",
+    "url": "/mock-reports/exec-55/playwright-report/index.html"
+  },
+  {
+    "id": "rep-110",
+    "executionId": "exec-55",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-55",
+    "url": "/mock-reports/exec-55/allure-report/index.html"
+  },
+  {
+    "id": "rep-111",
+    "executionId": "exec-56",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-56",
+    "url": "/mock-reports/exec-56/playwright-report/index.html"
+  },
+  {
+    "id": "rep-112",
+    "executionId": "exec-56",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-56",
+    "url": "/mock-reports/exec-56/allure-report/index.html"
+  },
+  {
+    "id": "rep-113",
+    "executionId": "exec-57",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-57",
+    "url": "/mock-reports/exec-57/playwright-report/index.html"
+  },
+  {
+    "id": "rep-114",
+    "executionId": "exec-57",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-57",
+    "url": "/mock-reports/exec-57/allure-report/index.html"
+  },
+  {
+    "id": "rep-115",
+    "executionId": "exec-58",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-58",
+    "url": "/mock-reports/exec-58/playwright-report/index.html"
+  },
+  {
+    "id": "rep-116",
+    "executionId": "exec-58",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-58",
+    "url": "/mock-reports/exec-58/allure-report/index.html"
+  },
+  {
+    "id": "rep-117",
+    "executionId": "exec-59",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-59",
+    "url": "/mock-reports/exec-59/playwright-report/index.html"
+  },
+  {
+    "id": "rep-118",
+    "executionId": "exec-59",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-59",
+    "url": "/mock-reports/exec-59/allure-report/index.html"
+  },
+  {
+    "id": "rep-119",
+    "executionId": "exec-60",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-60",
+    "url": "/mock-reports/exec-60/playwright-report/index.html"
+  },
+  {
+    "id": "rep-120",
+    "executionId": "exec-60",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-60",
+    "url": "/mock-reports/exec-60/allure-report/index.html"
+  },
+  {
+    "id": "rep-121",
+    "executionId": "exec-61",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-61",
+    "url": "/mock-reports/exec-61/playwright-report/index.html"
+  },
+  {
+    "id": "rep-122",
+    "executionId": "exec-61",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-61",
+    "url": "/mock-reports/exec-61/allure-report/index.html"
+  },
+  {
+    "id": "rep-123",
+    "executionId": "exec-62",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-62",
+    "url": "/mock-reports/exec-62/playwright-report/index.html"
+  },
+  {
+    "id": "rep-124",
+    "executionId": "exec-62",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-62",
+    "url": "/mock-reports/exec-62/allure-report/index.html"
+  },
+  {
+    "id": "rep-125",
+    "executionId": "exec-63",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-63",
+    "url": "/mock-reports/exec-63/playwright-report/index.html"
+  },
+  {
+    "id": "rep-126",
+    "executionId": "exec-63",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-63",
+    "url": "/mock-reports/exec-63/allure-report/index.html"
+  },
+  {
+    "id": "rep-127",
+    "executionId": "exec-64",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-64",
+    "url": "/mock-reports/exec-64/playwright-report/index.html"
+  },
+  {
+    "id": "rep-128",
+    "executionId": "exec-64",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-64",
+    "url": "/mock-reports/exec-64/allure-report/index.html"
+  },
+  {
+    "id": "rep-129",
+    "executionId": "exec-65",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-65",
+    "url": "/mock-reports/exec-65/playwright-report/index.html"
+  },
+  {
+    "id": "rep-130",
+    "executionId": "exec-65",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-65",
+    "url": "/mock-reports/exec-65/allure-report/index.html"
+  },
+  {
+    "id": "rep-131",
+    "executionId": "exec-66",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-66",
+    "url": "/mock-reports/exec-66/playwright-report/index.html"
+  },
+  {
+    "id": "rep-132",
+    "executionId": "exec-66",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-66",
+    "url": "/mock-reports/exec-66/allure-report/index.html"
+  },
+  {
+    "id": "rep-133",
+    "executionId": "exec-67",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-67",
+    "url": "/mock-reports/exec-67/playwright-report/index.html"
+  },
+  {
+    "id": "rep-134",
+    "executionId": "exec-67",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-67",
+    "url": "/mock-reports/exec-67/allure-report/index.html"
+  },
+  {
+    "id": "rep-135",
+    "executionId": "exec-68",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-68",
+    "url": "/mock-reports/exec-68/playwright-report/index.html"
+  },
+  {
+    "id": "rep-136",
+    "executionId": "exec-68",
+    "clientId": "cli-alpha",
+    "projectId": "prj-alpha-mobile",
+    "type": "allure",
+    "name": "Reporte Allure - exec-68",
+    "url": "/mock-reports/exec-68/allure-report/index.html"
+  },
+  {
+    "id": "rep-137",
+    "executionId": "exec-69",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-69",
+    "url": "/mock-reports/exec-69/playwright-report/index.html"
+  },
+  {
+    "id": "rep-138",
+    "executionId": "exec-69",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-69",
+    "url": "/mock-reports/exec-69/allure-report/index.html"
+  },
+  {
+    "id": "rep-139",
+    "executionId": "exec-70",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-70",
+    "url": "/mock-reports/exec-70/playwright-report/index.html"
+  },
+  {
+    "id": "rep-140",
+    "executionId": "exec-70",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-70",
+    "url": "/mock-reports/exec-70/allure-report/index.html"
+  },
+  {
+    "id": "rep-141",
+    "executionId": "exec-71",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-71",
+    "url": "/mock-reports/exec-71/playwright-report/index.html"
+  },
+  {
+    "id": "rep-142",
+    "executionId": "exec-71",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-71",
+    "url": "/mock-reports/exec-71/allure-report/index.html"
+  },
+  {
+    "id": "rep-143",
+    "executionId": "exec-72",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-72",
+    "url": "/mock-reports/exec-72/playwright-report/index.html"
+  },
+  {
+    "id": "rep-144",
+    "executionId": "exec-72",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-72",
+    "url": "/mock-reports/exec-72/allure-report/index.html"
+  },
+  {
+    "id": "rep-145",
+    "executionId": "exec-73",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-73",
+    "url": "/mock-reports/exec-73/playwright-report/index.html"
+  },
+  {
+    "id": "rep-146",
+    "executionId": "exec-73",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-73",
+    "url": "/mock-reports/exec-73/allure-report/index.html"
+  },
+  {
+    "id": "rep-147",
+    "executionId": "exec-74",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-74",
+    "url": "/mock-reports/exec-74/playwright-report/index.html"
+  },
+  {
+    "id": "rep-148",
+    "executionId": "exec-74",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-74",
+    "url": "/mock-reports/exec-74/allure-report/index.html"
+  },
+  {
+    "id": "rep-149",
+    "executionId": "exec-75",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-75",
+    "url": "/mock-reports/exec-75/playwright-report/index.html"
+  },
+  {
+    "id": "rep-150",
+    "executionId": "exec-75",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-75",
+    "url": "/mock-reports/exec-75/allure-report/index.html"
+  },
+  {
+    "id": "rep-151",
+    "executionId": "exec-76",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-76",
+    "url": "/mock-reports/exec-76/playwright-report/index.html"
+  },
+  {
+    "id": "rep-152",
+    "executionId": "exec-76",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-76",
+    "url": "/mock-reports/exec-76/allure-report/index.html"
+  },
+  {
+    "id": "rep-153",
+    "executionId": "exec-77",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-77",
+    "url": "/mock-reports/exec-77/playwright-report/index.html"
+  },
+  {
+    "id": "rep-154",
+    "executionId": "exec-77",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-77",
+    "url": "/mock-reports/exec-77/allure-report/index.html"
+  },
+  {
+    "id": "rep-155",
+    "executionId": "exec-78",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-78",
+    "url": "/mock-reports/exec-78/playwright-report/index.html"
+  },
+  {
+    "id": "rep-156",
+    "executionId": "exec-78",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-78",
+    "url": "/mock-reports/exec-78/allure-report/index.html"
+  },
+  {
+    "id": "rep-157",
+    "executionId": "exec-79",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-79",
+    "url": "/mock-reports/exec-79/playwright-report/index.html"
+  },
+  {
+    "id": "rep-158",
+    "executionId": "exec-79",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-79",
+    "url": "/mock-reports/exec-79/allure-report/index.html"
+  },
+  {
+    "id": "rep-159",
+    "executionId": "exec-80",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-80",
+    "url": "/mock-reports/exec-80/playwright-report/index.html"
+  },
+  {
+    "id": "rep-160",
+    "executionId": "exec-80",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-80",
+    "url": "/mock-reports/exec-80/allure-report/index.html"
+  },
+  {
+    "id": "rep-161",
+    "executionId": "exec-81",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-81",
+    "url": "/mock-reports/exec-81/playwright-report/index.html"
+  },
+  {
+    "id": "rep-162",
+    "executionId": "exec-81",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-81",
+    "url": "/mock-reports/exec-81/allure-report/index.html"
+  },
+  {
+    "id": "rep-163",
+    "executionId": "exec-82",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-82",
+    "url": "/mock-reports/exec-82/playwright-report/index.html"
+  },
+  {
+    "id": "rep-164",
+    "executionId": "exec-82",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-82",
+    "url": "/mock-reports/exec-82/allure-report/index.html"
+  },
+  {
+    "id": "rep-165",
+    "executionId": "exec-83",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-83",
+    "url": "/mock-reports/exec-83/playwright-report/index.html"
+  },
+  {
+    "id": "rep-166",
+    "executionId": "exec-83",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-83",
+    "url": "/mock-reports/exec-83/allure-report/index.html"
+  },
+  {
+    "id": "rep-167",
+    "executionId": "exec-84",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-84",
+    "url": "/mock-reports/exec-84/playwright-report/index.html"
+  },
+  {
+    "id": "rep-168",
+    "executionId": "exec-84",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-84",
+    "url": "/mock-reports/exec-84/allure-report/index.html"
+  },
+  {
+    "id": "rep-169",
+    "executionId": "exec-85",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-85",
+    "url": "/mock-reports/exec-85/playwright-report/index.html"
+  },
+  {
+    "id": "rep-170",
+    "executionId": "exec-85",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-85",
+    "url": "/mock-reports/exec-85/allure-report/index.html"
+  },
+  {
+    "id": "rep-171",
+    "executionId": "exec-86",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-86",
+    "url": "/mock-reports/exec-86/playwright-report/index.html"
+  },
+  {
+    "id": "rep-172",
+    "executionId": "exec-86",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-86",
+    "url": "/mock-reports/exec-86/allure-report/index.html"
+  },
+  {
+    "id": "rep-173",
+    "executionId": "exec-87",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-87",
+    "url": "/mock-reports/exec-87/playwright-report/index.html"
+  },
+  {
+    "id": "rep-174",
+    "executionId": "exec-87",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-87",
+    "url": "/mock-reports/exec-87/allure-report/index.html"
+  },
+  {
+    "id": "rep-175",
+    "executionId": "exec-88",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-88",
+    "url": "/mock-reports/exec-88/playwright-report/index.html"
+  },
+  {
+    "id": "rep-176",
+    "executionId": "exec-88",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-88",
+    "url": "/mock-reports/exec-88/allure-report/index.html"
+  },
+  {
+    "id": "rep-177",
+    "executionId": "exec-89",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-89",
+    "url": "/mock-reports/exec-89/playwright-report/index.html"
+  },
+  {
+    "id": "rep-178",
+    "executionId": "exec-89",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-89",
+    "url": "/mock-reports/exec-89/allure-report/index.html"
+  },
+  {
+    "id": "rep-179",
+    "executionId": "exec-90",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-90",
+    "url": "/mock-reports/exec-90/playwright-report/index.html"
+  },
+  {
+    "id": "rep-180",
+    "executionId": "exec-90",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-90",
+    "url": "/mock-reports/exec-90/allure-report/index.html"
+  },
+  {
+    "id": "rep-181",
+    "executionId": "exec-91",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-91",
+    "url": "/mock-reports/exec-91/playwright-report/index.html"
+  },
+  {
+    "id": "rep-182",
+    "executionId": "exec-91",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-91",
+    "url": "/mock-reports/exec-91/allure-report/index.html"
+  },
+  {
+    "id": "rep-183",
+    "executionId": "exec-92",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-92",
+    "url": "/mock-reports/exec-92/playwright-report/index.html"
+  },
+  {
+    "id": "rep-184",
+    "executionId": "exec-92",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-92",
+    "url": "/mock-reports/exec-92/allure-report/index.html"
+  },
+  {
+    "id": "rep-185",
+    "executionId": "exec-93",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-93",
+    "url": "/mock-reports/exec-93/playwright-report/index.html"
+  },
+  {
+    "id": "rep-186",
+    "executionId": "exec-93",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-erp",
+    "type": "allure",
+    "name": "Reporte Allure - exec-93",
+    "url": "/mock-reports/exec-93/allure-report/index.html"
+  },
+  {
+    "id": "rep-187",
+    "executionId": "exec-94",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-94",
+    "url": "/mock-reports/exec-94/playwright-report/index.html"
+  },
+  {
+    "id": "rep-188",
+    "executionId": "exec-94",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-94",
+    "url": "/mock-reports/exec-94/allure-report/index.html"
+  },
+  {
+    "id": "rep-189",
+    "executionId": "exec-95",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-95",
+    "url": "/mock-reports/exec-95/playwright-report/index.html"
+  },
+  {
+    "id": "rep-190",
+    "executionId": "exec-95",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-95",
+    "url": "/mock-reports/exec-95/allure-report/index.html"
+  },
+  {
+    "id": "rep-191",
+    "executionId": "exec-96",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-96",
+    "url": "/mock-reports/exec-96/playwright-report/index.html"
+  },
+  {
+    "id": "rep-192",
+    "executionId": "exec-96",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-96",
+    "url": "/mock-reports/exec-96/allure-report/index.html"
+  },
+  {
+    "id": "rep-193",
+    "executionId": "exec-97",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-97",
+    "url": "/mock-reports/exec-97/playwright-report/index.html"
+  },
+  {
+    "id": "rep-194",
+    "executionId": "exec-97",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-97",
+    "url": "/mock-reports/exec-97/allure-report/index.html"
+  },
+  {
+    "id": "rep-195",
+    "executionId": "exec-98",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-98",
+    "url": "/mock-reports/exec-98/playwright-report/index.html"
+  },
+  {
+    "id": "rep-196",
+    "executionId": "exec-98",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-98",
+    "url": "/mock-reports/exec-98/allure-report/index.html"
+  },
+  {
+    "id": "rep-197",
+    "executionId": "exec-99",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-99",
+    "url": "/mock-reports/exec-99/playwright-report/index.html"
+  },
+  {
+    "id": "rep-198",
+    "executionId": "exec-99",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-99",
+    "url": "/mock-reports/exec-99/allure-report/index.html"
+  },
+  {
+    "id": "rep-199",
+    "executionId": "exec-100",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-100",
+    "url": "/mock-reports/exec-100/playwright-report/index.html"
+  },
+  {
+    "id": "rep-200",
+    "executionId": "exec-100",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-100",
+    "url": "/mock-reports/exec-100/allure-report/index.html"
+  },
+  {
+    "id": "rep-201",
+    "executionId": "exec-101",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-101",
+    "url": "/mock-reports/exec-101/playwright-report/index.html"
+  },
+  {
+    "id": "rep-202",
+    "executionId": "exec-101",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-101",
+    "url": "/mock-reports/exec-101/allure-report/index.html"
+  },
+  {
+    "id": "rep-203",
+    "executionId": "exec-102",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-102",
+    "url": "/mock-reports/exec-102/playwright-report/index.html"
+  },
+  {
+    "id": "rep-204",
+    "executionId": "exec-102",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-102",
+    "url": "/mock-reports/exec-102/allure-report/index.html"
+  },
+  {
+    "id": "rep-205",
+    "executionId": "exec-103",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-103",
+    "url": "/mock-reports/exec-103/playwright-report/index.html"
+  },
+  {
+    "id": "rep-206",
+    "executionId": "exec-103",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-103",
+    "url": "/mock-reports/exec-103/allure-report/index.html"
+  },
+  {
+    "id": "rep-207",
+    "executionId": "exec-104",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-104",
+    "url": "/mock-reports/exec-104/playwright-report/index.html"
+  },
+  {
+    "id": "rep-208",
+    "executionId": "exec-104",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-104",
+    "url": "/mock-reports/exec-104/allure-report/index.html"
+  },
+  {
+    "id": "rep-209",
+    "executionId": "exec-105",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-105",
+    "url": "/mock-reports/exec-105/playwright-report/index.html"
+  },
+  {
+    "id": "rep-210",
+    "executionId": "exec-105",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-105",
+    "url": "/mock-reports/exec-105/allure-report/index.html"
+  },
+  {
+    "id": "rep-211",
+    "executionId": "exec-106",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-106",
+    "url": "/mock-reports/exec-106/playwright-report/index.html"
+  },
+  {
+    "id": "rep-212",
+    "executionId": "exec-106",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-106",
+    "url": "/mock-reports/exec-106/allure-report/index.html"
+  },
+  {
+    "id": "rep-213",
+    "executionId": "exec-107",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-107",
+    "url": "/mock-reports/exec-107/playwright-report/index.html"
+  },
+  {
+    "id": "rep-214",
+    "executionId": "exec-107",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-107",
+    "url": "/mock-reports/exec-107/allure-report/index.html"
+  },
+  {
+    "id": "rep-215",
+    "executionId": "exec-108",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-108",
+    "url": "/mock-reports/exec-108/playwright-report/index.html"
+  },
+  {
+    "id": "rep-216",
+    "executionId": "exec-108",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-108",
+    "url": "/mock-reports/exec-108/allure-report/index.html"
+  },
+  {
+    "id": "rep-217",
+    "executionId": "exec-109",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-109",
+    "url": "/mock-reports/exec-109/playwright-report/index.html"
+  },
+  {
+    "id": "rep-218",
+    "executionId": "exec-109",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-109",
+    "url": "/mock-reports/exec-109/allure-report/index.html"
+  },
+  {
+    "id": "rep-219",
+    "executionId": "exec-110",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-110",
+    "url": "/mock-reports/exec-110/playwright-report/index.html"
+  },
+  {
+    "id": "rep-220",
+    "executionId": "exec-110",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-110",
+    "url": "/mock-reports/exec-110/allure-report/index.html"
+  },
+  {
+    "id": "rep-221",
+    "executionId": "exec-111",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-111",
+    "url": "/mock-reports/exec-111/playwright-report/index.html"
+  },
+  {
+    "id": "rep-222",
+    "executionId": "exec-111",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-111",
+    "url": "/mock-reports/exec-111/allure-report/index.html"
+  },
+  {
+    "id": "rep-223",
+    "executionId": "exec-112",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-112",
+    "url": "/mock-reports/exec-112/playwright-report/index.html"
+  },
+  {
+    "id": "rep-224",
+    "executionId": "exec-112",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-112",
+    "url": "/mock-reports/exec-112/allure-report/index.html"
+  },
+  {
+    "id": "rep-225",
+    "executionId": "exec-113",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-113",
+    "url": "/mock-reports/exec-113/playwright-report/index.html"
+  },
+  {
+    "id": "rep-226",
+    "executionId": "exec-113",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-113",
+    "url": "/mock-reports/exec-113/allure-report/index.html"
+  },
+  {
+    "id": "rep-227",
+    "executionId": "exec-114",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-114",
+    "url": "/mock-reports/exec-114/playwright-report/index.html"
+  },
+  {
+    "id": "rep-228",
+    "executionId": "exec-114",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-114",
+    "url": "/mock-reports/exec-114/allure-report/index.html"
+  },
+  {
+    "id": "rep-229",
+    "executionId": "exec-115",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-115",
+    "url": "/mock-reports/exec-115/playwright-report/index.html"
+  },
+  {
+    "id": "rep-230",
+    "executionId": "exec-115",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-115",
+    "url": "/mock-reports/exec-115/allure-report/index.html"
+  },
+  {
+    "id": "rep-231",
+    "executionId": "exec-116",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-116",
+    "url": "/mock-reports/exec-116/playwright-report/index.html"
+  },
+  {
+    "id": "rep-232",
+    "executionId": "exec-116",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-116",
+    "url": "/mock-reports/exec-116/allure-report/index.html"
+  },
+  {
+    "id": "rep-233",
+    "executionId": "exec-117",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-117",
+    "url": "/mock-reports/exec-117/playwright-report/index.html"
+  },
+  {
+    "id": "rep-234",
+    "executionId": "exec-117",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-117",
+    "url": "/mock-reports/exec-117/allure-report/index.html"
+  },
+  {
+    "id": "rep-235",
+    "executionId": "exec-118",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-118",
+    "url": "/mock-reports/exec-118/playwright-report/index.html"
+  },
+  {
+    "id": "rep-236",
+    "executionId": "exec-118",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-118",
+    "url": "/mock-reports/exec-118/allure-report/index.html"
+  },
+  {
+    "id": "rep-237",
+    "executionId": "exec-119",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-119",
+    "url": "/mock-reports/exec-119/playwright-report/index.html"
+  },
+  {
+    "id": "rep-238",
+    "executionId": "exec-119",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-119",
+    "url": "/mock-reports/exec-119/allure-report/index.html"
+  },
+  {
+    "id": "rep-239",
+    "executionId": "exec-120",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-120",
+    "url": "/mock-reports/exec-120/playwright-report/index.html"
+  },
+  {
+    "id": "rep-240",
+    "executionId": "exec-120",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-120",
+    "url": "/mock-reports/exec-120/allure-report/index.html"
+  },
+  {
+    "id": "rep-241",
+    "executionId": "exec-121",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-121",
+    "url": "/mock-reports/exec-121/playwright-report/index.html"
+  },
+  {
+    "id": "rep-242",
+    "executionId": "exec-121",
+    "clientId": "cli-beta",
+    "projectId": "prj-beta-portal",
+    "type": "allure",
+    "name": "Reporte Allure - exec-121",
+    "url": "/mock-reports/exec-121/allure-report/index.html"
+  },
+  {
+    "id": "rep-243",
+    "executionId": "exec-122",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-122",
+    "url": "/mock-reports/exec-122/playwright-report/index.html"
+  },
+  {
+    "id": "rep-244",
+    "executionId": "exec-122",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-122",
+    "url": "/mock-reports/exec-122/allure-report/index.html"
+  },
+  {
+    "id": "rep-245",
+    "executionId": "exec-123",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-123",
+    "url": "/mock-reports/exec-123/playwright-report/index.html"
+  },
+  {
+    "id": "rep-246",
+    "executionId": "exec-123",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-123",
+    "url": "/mock-reports/exec-123/allure-report/index.html"
+  },
+  {
+    "id": "rep-247",
+    "executionId": "exec-124",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-124",
+    "url": "/mock-reports/exec-124/playwright-report/index.html"
+  },
+  {
+    "id": "rep-248",
+    "executionId": "exec-124",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-124",
+    "url": "/mock-reports/exec-124/allure-report/index.html"
+  },
+  {
+    "id": "rep-249",
+    "executionId": "exec-125",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-125",
+    "url": "/mock-reports/exec-125/playwright-report/index.html"
+  },
+  {
+    "id": "rep-250",
+    "executionId": "exec-125",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-125",
+    "url": "/mock-reports/exec-125/allure-report/index.html"
+  },
+  {
+    "id": "rep-251",
+    "executionId": "exec-126",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-126",
+    "url": "/mock-reports/exec-126/playwright-report/index.html"
+  },
+  {
+    "id": "rep-252",
+    "executionId": "exec-126",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-126",
+    "url": "/mock-reports/exec-126/allure-report/index.html"
+  },
+  {
+    "id": "rep-253",
+    "executionId": "exec-127",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-127",
+    "url": "/mock-reports/exec-127/playwright-report/index.html"
+  },
+  {
+    "id": "rep-254",
+    "executionId": "exec-127",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-127",
+    "url": "/mock-reports/exec-127/allure-report/index.html"
+  },
+  {
+    "id": "rep-255",
+    "executionId": "exec-128",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-128",
+    "url": "/mock-reports/exec-128/playwright-report/index.html"
+  },
+  {
+    "id": "rep-256",
+    "executionId": "exec-128",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-128",
+    "url": "/mock-reports/exec-128/allure-report/index.html"
+  },
+  {
+    "id": "rep-257",
+    "executionId": "exec-129",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-129",
+    "url": "/mock-reports/exec-129/playwright-report/index.html"
+  },
+  {
+    "id": "rep-258",
+    "executionId": "exec-129",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-129",
+    "url": "/mock-reports/exec-129/allure-report/index.html"
+  },
+  {
+    "id": "rep-259",
+    "executionId": "exec-130",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-130",
+    "url": "/mock-reports/exec-130/playwright-report/index.html"
+  },
+  {
+    "id": "rep-260",
+    "executionId": "exec-130",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-130",
+    "url": "/mock-reports/exec-130/allure-report/index.html"
+  },
+  {
+    "id": "rep-261",
+    "executionId": "exec-131",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-131",
+    "url": "/mock-reports/exec-131/playwright-report/index.html"
+  },
+  {
+    "id": "rep-262",
+    "executionId": "exec-131",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-131",
+    "url": "/mock-reports/exec-131/allure-report/index.html"
+  },
+  {
+    "id": "rep-263",
+    "executionId": "exec-132",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-132",
+    "url": "/mock-reports/exec-132/playwright-report/index.html"
+  },
+  {
+    "id": "rep-264",
+    "executionId": "exec-132",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-132",
+    "url": "/mock-reports/exec-132/allure-report/index.html"
+  },
+  {
+    "id": "rep-265",
+    "executionId": "exec-133",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-133",
+    "url": "/mock-reports/exec-133/playwright-report/index.html"
+  },
+  {
+    "id": "rep-266",
+    "executionId": "exec-133",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-133",
+    "url": "/mock-reports/exec-133/allure-report/index.html"
+  },
+  {
+    "id": "rep-267",
+    "executionId": "exec-134",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-134",
+    "url": "/mock-reports/exec-134/playwright-report/index.html"
+  },
+  {
+    "id": "rep-268",
+    "executionId": "exec-134",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-134",
+    "url": "/mock-reports/exec-134/allure-report/index.html"
+  },
+  {
+    "id": "rep-269",
+    "executionId": "exec-135",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-135",
+    "url": "/mock-reports/exec-135/playwright-report/index.html"
+  },
+  {
+    "id": "rep-270",
+    "executionId": "exec-135",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-135",
+    "url": "/mock-reports/exec-135/allure-report/index.html"
+  },
+  {
+    "id": "rep-271",
+    "executionId": "exec-136",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-136",
+    "url": "/mock-reports/exec-136/playwright-report/index.html"
+  },
+  {
+    "id": "rep-272",
+    "executionId": "exec-136",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-136",
+    "url": "/mock-reports/exec-136/allure-report/index.html"
+  },
+  {
+    "id": "rep-273",
+    "executionId": "exec-137",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-137",
+    "url": "/mock-reports/exec-137/playwright-report/index.html"
+  },
+  {
+    "id": "rep-274",
+    "executionId": "exec-137",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-137",
+    "url": "/mock-reports/exec-137/allure-report/index.html"
+  },
+  {
+    "id": "rep-275",
+    "executionId": "exec-138",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-138",
+    "url": "/mock-reports/exec-138/playwright-report/index.html"
+  },
+  {
+    "id": "rep-276",
+    "executionId": "exec-138",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-138",
+    "url": "/mock-reports/exec-138/allure-report/index.html"
+  },
+  {
+    "id": "rep-277",
+    "executionId": "exec-139",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-139",
+    "url": "/mock-reports/exec-139/playwright-report/index.html"
+  },
+  {
+    "id": "rep-278",
+    "executionId": "exec-139",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-139",
+    "url": "/mock-reports/exec-139/allure-report/index.html"
+  },
+  {
+    "id": "rep-279",
+    "executionId": "exec-140",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-140",
+    "url": "/mock-reports/exec-140/playwright-report/index.html"
+  },
+  {
+    "id": "rep-280",
+    "executionId": "exec-140",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-140",
+    "url": "/mock-reports/exec-140/allure-report/index.html"
+  },
+  {
+    "id": "rep-281",
+    "executionId": "exec-141",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-141",
+    "url": "/mock-reports/exec-141/playwright-report/index.html"
+  },
+  {
+    "id": "rep-282",
+    "executionId": "exec-141",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-141",
+    "url": "/mock-reports/exec-141/allure-report/index.html"
+  },
+  {
+    "id": "rep-283",
+    "executionId": "exec-142",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-142",
+    "url": "/mock-reports/exec-142/playwright-report/index.html"
+  },
+  {
+    "id": "rep-284",
+    "executionId": "exec-142",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-142",
+    "url": "/mock-reports/exec-142/allure-report/index.html"
+  },
+  {
+    "id": "rep-285",
+    "executionId": "exec-143",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-143",
+    "url": "/mock-reports/exec-143/playwright-report/index.html"
+  },
+  {
+    "id": "rep-286",
+    "executionId": "exec-143",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-143",
+    "url": "/mock-reports/exec-143/allure-report/index.html"
+  },
+  {
+    "id": "rep-287",
+    "executionId": "exec-144",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-144",
+    "url": "/mock-reports/exec-144/playwright-report/index.html"
+  },
+  {
+    "id": "rep-288",
+    "executionId": "exec-144",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-144",
+    "url": "/mock-reports/exec-144/allure-report/index.html"
+  },
+  {
+    "id": "rep-289",
+    "executionId": "exec-145",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-145",
+    "url": "/mock-reports/exec-145/playwright-report/index.html"
+  },
+  {
+    "id": "rep-290",
+    "executionId": "exec-145",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-145",
+    "url": "/mock-reports/exec-145/allure-report/index.html"
+  },
+  {
+    "id": "rep-291",
+    "executionId": "exec-146",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-146",
+    "url": "/mock-reports/exec-146/playwright-report/index.html"
+  },
+  {
+    "id": "rep-292",
+    "executionId": "exec-146",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-146",
+    "url": "/mock-reports/exec-146/allure-report/index.html"
+  },
+  {
+    "id": "rep-293",
+    "executionId": "exec-147",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-147",
+    "url": "/mock-reports/exec-147/playwright-report/index.html"
+  },
+  {
+    "id": "rep-294",
+    "executionId": "exec-147",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-147",
+    "url": "/mock-reports/exec-147/allure-report/index.html"
+  },
+  {
+    "id": "rep-295",
+    "executionId": "exec-148",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-148",
+    "url": "/mock-reports/exec-148/playwright-report/index.html"
+  },
+  {
+    "id": "rep-296",
+    "executionId": "exec-148",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-148",
+    "url": "/mock-reports/exec-148/allure-report/index.html"
+  },
+  {
+    "id": "rep-297",
+    "executionId": "exec-149",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-149",
+    "url": "/mock-reports/exec-149/playwright-report/index.html"
+  },
+  {
+    "id": "rep-298",
+    "executionId": "exec-149",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-149",
+    "url": "/mock-reports/exec-149/allure-report/index.html"
+  },
+  {
+    "id": "rep-299",
+    "executionId": "exec-150",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-150",
+    "url": "/mock-reports/exec-150/playwright-report/index.html"
+  },
+  {
+    "id": "rep-300",
+    "executionId": "exec-150",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-150",
+    "url": "/mock-reports/exec-150/allure-report/index.html"
+  },
+  {
+    "id": "rep-301",
+    "executionId": "exec-151",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-151",
+    "url": "/mock-reports/exec-151/playwright-report/index.html"
+  },
+  {
+    "id": "rep-302",
+    "executionId": "exec-151",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-151",
+    "url": "/mock-reports/exec-151/allure-report/index.html"
+  },
+  {
+    "id": "rep-303",
+    "executionId": "exec-152",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-152",
+    "url": "/mock-reports/exec-152/playwright-report/index.html"
+  },
+  {
+    "id": "rep-304",
+    "executionId": "exec-152",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-152",
+    "url": "/mock-reports/exec-152/allure-report/index.html"
+  },
+  {
+    "id": "rep-305",
+    "executionId": "exec-153",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-153",
+    "url": "/mock-reports/exec-153/playwright-report/index.html"
+  },
+  {
+    "id": "rep-306",
+    "executionId": "exec-153",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-153",
+    "url": "/mock-reports/exec-153/allure-report/index.html"
+  },
+  {
+    "id": "rep-307",
+    "executionId": "exec-154",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "playwright",
+    "name": "Reporte Playwright - exec-154",
+    "url": "/mock-reports/exec-154/playwright-report/index.html"
+  },
+  {
+    "id": "rep-308",
+    "executionId": "exec-154",
+    "clientId": "cli-gamma",
+    "projectId": "prj-gamma-marketplace",
+    "type": "allure",
+    "name": "Reporte Allure - exec-154",
+    "url": "/mock-reports/exec-154/allure-report/index.html"
+  }
+]
