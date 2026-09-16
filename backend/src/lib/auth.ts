@@ -22,7 +22,15 @@ interface Credential {
   passwordHash: string;
 }
 
-const CREDENTIALS_PATH = path.join(__dirname, "..", "data", "mock", "credentials.json");
+/**
+ * En dev (ts-node-dev) __dirname apunta a backend/src/lib.
+ * En produccion (Render, build con tsc) __dirname apunta a backend/dist/lib.
+ * credentials.json (como el resto de mock/) NUNCA se copia a dist, asi que
+ * anclamos la ruta en la raiz del backend y apuntamos explicitamente a
+ * src/data/mock (mismo fix ya aplicado en backend/src/data/store.ts).
+ */
+const BACKEND_ROOT = path.join(__dirname, "..", ".."); // src/lib -> backend ; dist/lib -> backend
+const CREDENTIALS_PATH = path.join(BACKEND_ROOT, "src", "data", "mock", "credentials.json");
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000; // 12 horas
 
 export interface SessionData {
