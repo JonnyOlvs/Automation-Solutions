@@ -1,0 +1,13 @@
+{
+  "id": "exec-20260915-215246",
+  "name": "Smoke zerimarsoftware.com",
+  "project": "Zerimar",
+  "date": "2026-09-16T03:52:46.968Z",
+  "durationSeconds": 32,
+  "status": "passed",
+  "browser": "chromium",
+  "user": "Jonathan Olivos",
+  "branch": "main",
+  "commit": "e12d7d7",
+  "ciWorkflowRunId": null
+}

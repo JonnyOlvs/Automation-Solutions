@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { store } from "../../data/store";
+import { assertClientOwnership } from "../../lib/auth";
 
 export const evidencesRouter = Router();
 
@@ -39,5 +40,9 @@ evidencesRouter.get("/tree", (req, res) => {
 evidencesRouter.get("/", (req, res) => {
   const executionId = typeof req.query.executionId === "string" ? req.query.executionId : undefined;
   const testCaseId = typeof req.query.testCaseId === "string" ? req.query.testCaseId : undefined;
+  if (executionId) {
+    const execution = store.getExecutionById(executionId);
+    if (!assertClientOwnership(req, res, execution?.clientId)) return;
+  }
   res.json(store.getEvidences({ executionId, testCaseId }));
 });

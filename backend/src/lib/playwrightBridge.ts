@@ -29,6 +29,12 @@ const PROJECT_NAME_MAP: Record<string, { clientId: string; projectId: string; en
     projectId: "prj-alpha-ecommerce",
     environmentId: "env-1",
     suiteId: "suite-1"
+  },
+  Zerimar: {
+    clientId: "cli-zerimar",
+    projectId: "prj-zerimar-web",
+    environmentId: "env-20", // qa
+    suiteId: "suite-18" // Smoke Web
   }
 };
 

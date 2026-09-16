@@ -69,6 +69,17 @@ const CLIENTS = [
     status: "active",
     contactEmail: "tech@gammamarket.com",
     createdAt: isoDaysAgo(90, 9, 0)
+  },
+  {
+    id: "cli-zerimar",
+    name: "Zerimar Software",
+    slug: "zerimar",
+    industry: "Desarrollo de Software (Salud, Banca y Mobile)",
+    status: "active",
+    contactEmail: "zerimarsoftware@automationsolutions.org",
+    createdAt: isoDaysAgo(38, 9, 0),
+    logoUrl: "/logos/zerimar.png",
+    primaryColor: "#7CB342"
   }
 ];
 
@@ -78,7 +89,8 @@ const PROJECTS = [
   { id: "prj-alpha-mobile", clientId: "cli-alpha", name: "App Mobile", type: "Mobile", status: "paused", repoFullName: "alpha-retail/app-mobile" },
   { id: "prj-beta-erp", clientId: "cli-beta", name: "ERP Core", type: "Web", status: "active", repoFullName: "beta-mfg/erp-core" },
   { id: "prj-beta-portal", clientId: "cli-beta", name: "Portal de Proveedores", type: "Web", status: "active", repoFullName: "beta-mfg/portal-proveedores" },
-  { id: "prj-gamma-marketplace", clientId: "cli-gamma", name: "Marketplace", type: "Web", status: "active", repoFullName: "gamma-market/marketplace-web" }
+  { id: "prj-gamma-marketplace", clientId: "cli-gamma", name: "Marketplace", type: "Web", status: "active", repoFullName: "gamma-market/marketplace-web" },
+  { id: "prj-zerimar-web", clientId: "cli-zerimar", name: "Zerimar Software - Sitio Web", type: "Web", status: "active", repoFullName: "zerimarsoftware/website" }
 ];
 
 const ENV_NAMES = ["dev", "qa", "prod"];
@@ -99,7 +111,8 @@ const MODULES_BY_PROJECT = {
   "prj-alpha-mobile": ["Login", "Home", "Perfil", "Notificaciones"],
   "prj-beta-erp": ["Login", "Inventario", "Compras", "Facturacion"],
   "prj-beta-portal": ["Login", "Ordenes", "Pagos", "Documentos"],
-  "prj-gamma-marketplace": ["Login", "Busqueda", "Publicaciones", "Mensajeria", "Pagos"]
+  "prj-gamma-marketplace": ["Login", "Busqueda", "Publicaciones", "Mensajeria", "Pagos"],
+  "prj-zerimar-web": ["Home", "Productos", "Stack Tecnologico", "Proceso", "Contacto"]
 };
 const BRANCHES = ["main", "develop", "release/1.4", "feature/checkout-refactor"];
 const DOC_CATEGORIES = [
@@ -341,7 +354,8 @@ const USERS = [
   { id: "usr-qamanual", name: "Carlos Ruiz", email: "carlos.ruiz@automatedsolutions.com", role: "qa_manual", clientId: null },
   { id: "usr-cli-alpha", name: "Cliente Alpha - Contacto", email: "qa-lead@alpharetail.com", role: "client", clientId: "cli-alpha" },
   { id: "usr-cli-beta", name: "Cliente Beta - Contacto", email: "it@betamanufacturing.com", role: "client", clientId: "cli-beta" },
-  { id: "usr-cli-gamma", name: "Cliente Gamma - Contacto", email: "tech@gammamarket.com", role: "client", clientId: "cli-gamma" }
+  { id: "usr-cli-gamma", name: "Cliente Gamma - Contacto", email: "tech@gammamarket.com", role: "client", clientId: "cli-gamma" },
+  { id: "usr-cli-zerimar", name: "Zerimar Software - Contacto", email: "zerimarsoftware@automationsolutions.org", role: "client", clientId: "cli-zerimar" }
 ];
 
 const files = {

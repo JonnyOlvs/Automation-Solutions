@@ -8,7 +8,7 @@ filtersRouter.get("/options", (req, res) => {
   const clientId = typeof req.query.clientId === "string" ? req.query.clientId : undefined;
   const projectId = typeof req.query.projectId === "string" ? req.query.projectId : undefined;
 
-  const clients = store.getClients();
+  const clients = store.getClients().filter((c) => !clientId || c.id === clientId);
   const projects = store.getProjects(clientId);
   const environments = store.getEnvironments(projectId);
   const suites = store.getSuites(projectId);

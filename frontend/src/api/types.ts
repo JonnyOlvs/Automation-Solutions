@@ -12,6 +12,8 @@ export interface Client {
   status: "active" | "inactive";
   contactEmail: string;
   createdAt: string;
+  logoUrl?: string;
+  primaryColor?: string;
   summary?: {
     projectsCount: number;
     lastExecutionDate: string | null;
@@ -150,6 +152,16 @@ export interface User {
   email: string;
   role: UserRole;
   clientId: string | null;
+}
+
+/** Usuario de la sesion real (login), enriquecido con datos de branding del cliente si aplica. */
+export interface SessionUser {
+  id: string;
+  name: string;
+  email: string;
+  role: UserRole;
+  clientId: string | null;
+  client: { id: string; name: string; slug: string; logoUrl?: string; primaryColor?: string } | null;
 }
 
 export interface Integration {

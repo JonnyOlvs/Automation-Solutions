@@ -58,7 +58,7 @@ npm run generate:mock
 - **Repositorio reemplazable**: el backend lee hoy de archivos JSON (`backend/src/data/mock`) a través de `FileRepository`. El día que exista PostgreSQL, se implementa una `PostgresRepository` con la misma interfaz y ni rutas ni frontend cambian.
 - **Puente con Playwright real**: `backend/src/lib/playwrightBridge.ts` escanea `evidencias/` (generada por `scripts/run-with-evidences.cjs` en cada corrida real) y la mezcla con los datos mock, así que las ejecuciones reales aparecen automáticamente en el "Centro de Ejecuciones" y en "Evidencias".
 - **GitHub / GitHub Actions**: integración desacoplada (`backend/src/modules/integrations/github.provider.ts`) con un `MockGithubProvider`. Se reemplaza por un `OctokitGithubProvider` real sin tocar rutas ni pantallas.
-- **Roles y autenticación**: preparados en la arquitectura (roles: admin, qa_lead, qa_automation, qa_manual, client) pero simulados desde la interfaz (`/configuracion`) mientras no exista backend de autenticación real. Ningún token se guarda en el frontend.
+- **Roles y autenticación real (ligera)**: login con email + password (hash bcrypt en `backend/src/data/mock/credentials.json`), sesiones en memoria vía token Bearer (`backend/src/lib/auth.ts`, expiran a las 12h). Toda la API (excepto `/api/auth/login`) requiere sesión válida. Si el usuario logueado es rol `client`, el backend fuerza `clientId` en cada consulta y responde 403 si intenta acceder a datos de otro cliente por `:id` directo — aislamiento real, no solo de interfaz. Ver sección "Demo cliente" más abajo.
 - **Vista Ejecutiva vs Técnica**: switch en la barra superior; la vista ejecutiva resume el estado del proyecto para el cliente, la vista técnica expone KPIs y gráficas detalladas para el equipo de QA.
 
 ## Framework Playwright (E2E)
@@ -88,7 +88,8 @@ Copiar `.env.local-regresion.example` a `.env` y ajustar valores:
 - `npm run test:chrome` — solo Chromium.
 - `npm run test:debug` — modo debug.
 - `npm run test:dash` — corre Playwright y guarda evidencias en `evidencias/` (alimenta el dashboard).
-- `npm run test:ci:dash` — igual que `test:dash` pero con el filtro de CI (`--grep-invert @visual`); es el que usa el workflow de GitHub Actions y el que sube evidencias a Cloudflare R2 si hay credenciales configuradas.
+- `npm run test:ci:dash` — igual que `test:dash` pero con el filtro de CI (`--grep-invert "@visual|@zerimar"`); es el que usa el workflow de GitHub Actions y el que sube evidencias a Cloudflare R2 si hay credenciales configuradas.
+- `npm run test:zerimar:dash` — corre solo el smoke real contra `zerimarsoftware.com` (tag `@zerimar`) y guarda sus evidencias como proyecto "Zerimar" (ver sección "Demo cliente: Zerimar Software").
 - `npm run report` — abrir reporte Playwright.
 - `npm run report:allure` / `report:allure:open` — reporte HTML de Allure.
 
@@ -151,9 +152,34 @@ Sin estos Secrets, el workflow sigue corriendo igual (solo se omite la subida a 
 - Los datos "de catálogo" (clientes/proyectos/ambientes) siguen en JSON local dentro del repo (`backend/src/data/mock`); solo las **ejecuciones reales** viajan por R2. Migrar a PostgreSQL queda para una siguiente fase.
 - `GET /api/integrations/ci-evidence/status` y `POST /api/integrations/ci-evidence/refresh` permiten revisar si el backend está viendo R2 y forzar un refresco manual sin esperar el polling.
 
+## Demo cliente: Zerimar Software
+
+Cliente demo con login real, branding propio (logo en `frontend/public/logos/zerimar.png`) y evidencias **reales** de Playwright corridas contra `https://zerimarsoftware.com/` (no son mock).
+
+- **URL de login**: `/login` (redirige automáticamente si no hay sesión).
+- **Usuario**: `zerimarsoftware@automationsolutions.org`
+- **Password**: `zerimaradmin`
+- Cuentas internas (Alpha/Beta/Gamma + equipo) usan la password compartida `automation2026` (ver `backend/scripts/generate-credentials.cjs`).
+
+Al hacer login como Zerimar, el dashboard fuerza `clientId=cli-zerimar` en toda la API (backend), oculta el selector de "Cliente" en la barra superior y muestra el logo/nombre de Zerimar en el sidebar en vez del branding de Automated Solutions.
+
+### Generar más evidencias reales de Zerimar
+
+```bash
+npm run test:zerimar:dash
+```
+
+Corre el spec `src/tests/e2e/zerimar.spec.ts` (tag `@zerimar`, excluido de `npm run test`/`test:ci`) contra el sitio real, y guarda screenshots/video/trace/reporte en `evidencias/Zerimar/...` — el backend los detecta automáticamente (mismo puente que usa Playwright para el resto de clientes, `PROJECT_NAME_MAP` en `backend/src/lib/playwrightBridge.ts`).
+
+### Agregar un nuevo cliente demo (receta rápida)
+
+1. Agregar entradas en `CLIENTS`, `PROJECTS`, `MODULES_BY_PROJECT` y `USERS` en `backend/scripts/generate-mock.cjs` (incluir `logoUrl`/`primaryColor` en el cliente) y correr `npm run generate:mock` dentro de `backend/`.
+2. Correr `npm run generate:credentials` dentro de `backend/` para regenerar `credentials.json` con el password que corresponda (ver `PASSWORD_OVERRIDES` en el script).
+3. Si vas a correr Playwright real contra su sitio, agregar su entrada a `PROJECT_NAME_MAP` en `backend/src/lib/playwrightBridge.ts` y un spec tageado (ej. `@nuevocliente`) que navegue a su URL real.
+4. Copiar su logo a `frontend/public/logos/<slug>.png`.
+
 ## Roadmap pendiente
 
-- Autenticación real (JWT) y tokens de GitHub protegidos únicamente en backend.
 - Integración real con GitHub API + GitHub Actions.
 - Exportación a PDF / Excel de reportes y evidencias.
 - Persistencia en PostgreSQL en lugar de los repositorios JSON.

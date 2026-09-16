@@ -2,49 +2,57 @@
   {
     "id": "cov-prj-alpha-ecommerce",
     "projectId": "prj-alpha-ecommerce",
-    "automatedCases": 31,
-    "manualCases": 18,
-    "pendingCases": 12,
-    "updatedAt": "2026-08-25T08:00:26.000Z"
+    "automatedCases": 72,
+    "manualCases": 16,
+    "pendingCases": 4,
+    "updatedAt": "2026-09-15T08:00:25.000Z"
   },
   {
     "id": "cov-prj-alpha-crm",
     "projectId": "prj-alpha-crm",
-    "automatedCases": 96,
-    "manualCases": 20,
-    "pendingCases": 18,
-    "updatedAt": "2026-08-23T08:00:04.000Z"
+    "automatedCases": 72,
+    "manualCases": 19,
+    "pendingCases": 15,
+    "updatedAt": "2026-09-14T08:00:13.000Z"
   },
   {
     "id": "cov-prj-alpha-mobile",
     "projectId": "prj-alpha-mobile",
-    "automatedCases": 93,
-    "manualCases": 23,
-    "pendingCases": 4,
-    "updatedAt": "2026-08-24T08:00:06.000Z"
+    "automatedCases": 39,
+    "manualCases": 9,
+    "pendingCases": 10,
+    "updatedAt": "2026-09-13T08:00:35.000Z"
   },
   {
     "id": "cov-prj-beta-erp",
     "projectId": "prj-beta-erp",
-    "automatedCases": 62,
-    "manualCases": 19,
-    "pendingCases": 6,
-    "updatedAt": "2026-08-25T08:00:39.000Z"
+    "automatedCases": 90,
+    "manualCases": 7,
+    "pendingCases": 7,
+    "updatedAt": "2026-09-14T08:00:50.000Z"
   },
   {
     "id": "cov-prj-beta-portal",
     "projectId": "prj-beta-portal",
-    "automatedCases": 54,
-    "manualCases": 15,
-    "pendingCases": 15,
-    "updatedAt": "2026-08-23T08:00:12.000Z"
+    "automatedCases": 44,
+    "manualCases": 16,
+    "pendingCases": 8,
+    "updatedAt": "2026-09-15T08:00:03.000Z"
   },
   {
     "id": "cov-prj-gamma-marketplace",
     "projectId": "prj-gamma-marketplace",
-    "automatedCases": 88,
-    "manualCases": 18,
-    "pendingCases": 8,
-    "updatedAt": "2026-08-23T08:00:09.000Z"
+    "automatedCases": 94,
+    "manualCases": 19,
+    "pendingCases": 14,
+    "updatedAt": "2026-09-13T08:00:02.000Z"
+  },
+  {
+    "id": "cov-prj-zerimar-web",
+    "projectId": "prj-zerimar-web",
+    "automatedCases": 86,
+    "manualCases": 14,
+    "pendingCases": 16,
+    "updatedAt": "2026-09-14T08:00:23.000Z"
   }
 ]

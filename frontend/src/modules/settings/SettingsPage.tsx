@@ -1,5 +1,5 @@
-import { useQuery } from "@tanstack/react-query";
-import { ShieldCheck, Users, Download, Github, Circle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { ShieldCheck, UserCircle2, Download, Github, Circle, CheckCircle2, LogOut } from "lucide-react";
 import { authApi } from "@/api/endpoints";
 import { useAppStore, roleLabel } from "@/store/useAppStore";
 import { PageHeader } from "@/components/layout/PageHeader";
@@ -8,49 +8,60 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 const ROADMAP = [
-  { label: "Autenticación real (JWT) y tokens de GitHub protegidos en backend", status: "pending" },
+  { label: "Autenticación real (login + password + sesiones) y aislamiento por cliente", status: "done" },
   { label: "Integración real con GitHub API + GitHub Actions", status: "pending" },
   { label: "Exportación a PDF / Excel de reportes y evidencias", status: "pending" },
   { label: "Persistencia en PostgreSQL (reemplazo de repositorios JSON)", status: "pending" }
 ];
 
 export function SettingsPage() {
-  const { currentUser, setCurrentUser } = useAppStore();
-  const { data: users } = useQuery({ queryKey: ["users"], queryFn: authApi.users });
+  const navigate = useNavigate();
+  const { session, logout } = useAppStore();
+
+  async function handleLogout() {
+    try {
+      await authApi.logout();
+    } catch {
+      // Ignorar errores de red al cerrar sesion; de todos modos limpiamos localmente.
+    }
+    logout();
+    navigate("/login", { replace: true });
+  }
 
   return (
     <div>
-      <PageHeader title="Configuración" description="Sesión simulada, roles y estado del roadmap de la plataforma." />
+      <PageHeader title="Configuración" description="Tu sesión, roles y estado del roadmap de la plataforma." />
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Users className="h-4 w-4" /> Sesión simulada
+              <UserCircle2 className="h-4 w-4" /> Mi sesión
             </CardTitle>
           </CardHeader>
-          <CardContent className="space-y-2">
-            <p className="text-sm text-muted-foreground">
-              La autenticación real está preparada en la arquitectura pero no implementada todavía. Mientras tanto, elige un usuario
-              para simular su rol y lo que vería en la plataforma.
-            </p>
-            <div className="space-y-1.5">
-              {users?.map((user) => (
-                <button
-                  key={user.id}
-                  onClick={() => setCurrentUser(user)}
-                  className={`flex w-full items-center justify-between rounded-md border px-3 py-2 text-left text-sm transition-colors ${
-                    currentUser?.id === user.id ? "border-brand-green bg-brand-green/5" : "border-border hover:bg-muted/40"
-                  }`}
-                >
-                  <span>
-                    <span className="font-medium text-foreground">{user.name}</span>
-                    <span className="ml-2 text-xs text-muted-foreground">{user.email}</span>
-                  </span>
-                  <Badge variant="outline">{roleLabel(user.role)}</Badge>
-                </button>
-              ))}
-            </div>
+          <CardContent className="space-y-3">
+            {session ? (
+              <>
+                <div className="rounded-md border border-border px-3 py-2 text-sm">
+                  <p className="font-medium text-foreground">{session.name}</p>
+                  <p className="text-xs text-muted-foreground">{session.email}</p>
+                  <div className="mt-2 flex items-center gap-2">
+                    <Badge variant="outline">{roleLabel(session.role)}</Badge>
+                    {session.client && <Badge variant="info">{session.client.name}</Badge>}
+                  </div>
+                </div>
+                <p className="text-xs text-muted-foreground">
+                  {session.client
+                    ? `Tu cuenta esta restringida a los datos de ${session.client.name}. No puedes ver otros clientes.`
+                    : "Cuenta interna: puedes ver todos los clientes desde los filtros superiores."}
+                </p>
+                <Button variant="outline" size="sm" onClick={handleLogout}>
+                  <LogOut className="h-3.5 w-3.5" /> Cerrar sesión
+                </Button>
+              </>
+            ) : (
+              <p className="text-sm text-muted-foreground">No hay sesión activa.</p>
+            )}
           </CardContent>
         </Card>
 
@@ -63,7 +74,11 @@ export function SettingsPage() {
           <CardContent className="space-y-2">
             {ROADMAP.map((item) => (
               <div key={item.label} className="flex items-start gap-2 rounded-md border border-border px-3 py-2 text-sm">
-                <Circle className="mt-0.5 h-3 w-3 shrink-0 text-status-warning" />
+                {item.status === "done" ? (
+                  <CheckCircle2 className="mt-0.5 h-3 w-3 shrink-0 text-status-pass" />
+                ) : (
+                  <Circle className="mt-0.5 h-3 w-3 shrink-0 text-status-warning" />
+                )}
                 <span className="text-muted-foreground">{item.label}</span>
               </div>
             ))}

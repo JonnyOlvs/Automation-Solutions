@@ -1,28 +1,43 @@
+import { useNavigate } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { LayoutGrid, Users2 } from "lucide-react";
+import { LayoutGrid, LogOut, Users2 } from "lucide-react";
 import { filtersApi, authApi } from "@/api/endpoints";
 import { useAppStore, roleLabel } from "@/store/useAppStore";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 export function TopBar() {
-  const { filters, setFilter, viewMode, setViewMode, currentUser, setCurrentUser } = useAppStore();
+  const navigate = useNavigate();
+  const { filters, setFilter, viewMode, setViewMode, session, logout } = useAppStore();
+  const isClientUser = session?.role === "client";
 
   const { data: options } = useQuery({
     queryKey: ["filters-options", filters.clientId, filters.projectId],
     queryFn: () => filtersApi.options(filters.clientId, filters.projectId)
   });
 
-  const { data: users } = useQuery({ queryKey: ["users"], queryFn: authApi.users });
+  async function handleLogout() {
+    try {
+      await authApi.logout();
+    } catch {
+      // Si el logout remoto falla (sesion ya expirada, red, etc.) igual limpiamos localmente.
+    }
+    logout();
+    navigate("/login", { replace: true });
+  }
 
   return (
     <header className="flex flex-wrap items-center gap-3 border-b border-border bg-white px-6 py-3">
       <div className="flex flex-1 flex-wrap items-center gap-2">
-        <ContextSelect
-          placeholder="Cliente"
-          value={filters.clientId}
-          onChange={(v) => setFilter("clientId", v)}
-          options={(options?.clients ?? []).map((c) => ({ value: c.id, label: c.name }))}
-        />
+        {!isClientUser && (
+          <ContextSelect
+            placeholder="Cliente"
+            value={filters.clientId}
+            onChange={(v) => setFilter("clientId", v)}
+            options={(options?.clients ?? []).map((c) => ({ value: c.id, label: c.name }))}
+          />
+        )}
         <ContextSelect
           placeholder="Proyecto"
           value={filters.projectId}
@@ -63,21 +78,21 @@ export function TopBar() {
           </button>
         </div>
 
-        <Select
-          value={currentUser?.id ?? ""}
-          onValueChange={(id) => setCurrentUser(users?.find((u) => u.id === id) ?? null)}
-        >
-          <SelectTrigger className="min-w-[190px]">
-            <SelectValue placeholder="Sesión simulada" />
-          </SelectTrigger>
-          <SelectContent>
-            {users?.map((u) => (
-              <SelectItem key={u.id} value={u.id}>
-                {u.name} · {roleLabel(u.role)}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        {session && (
+          <div className="flex items-center gap-2 rounded-md border border-border px-3 py-1.5">
+            <div className="text-right leading-tight">
+              <p className="text-xs font-medium text-foreground">{session.name}</p>
+              <p className="text-[11px] text-muted-foreground">{session.email}</p>
+            </div>
+            <Badge variant="outline" className="shrink-0">
+              {roleLabel(session.role)}
+            </Badge>
+          </div>
+        )}
+
+        <Button variant="outline" size="icon" title="Cerrar sesión" onClick={handleLogout}>
+          <LogOut className="h-4 w-4" />
+        </Button>
       </div>
     </header>
   );

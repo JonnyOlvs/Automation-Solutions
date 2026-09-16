@@ -3,8 +3,10 @@ import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import { apiRouter } from "./routes";
+import { authRouter } from "./modules/auth/auth.routes";
 import { EVIDENCIAS_STATIC_ROOT } from "./lib/playwrightBridge";
 import { startCiEvidencePolling } from "./lib/ciEvidenceBridge";
+import { attachSession, enforceClientScope, requireAuth } from "./lib/auth";
 
 dotenv.config();
 
@@ -24,7 +26,13 @@ app.get("/health", (_req, res) => {
   res.json({ status: "ok", service: "automation-solutions-backend" });
 });
 
-app.use("/api", apiRouter);
+// Login/logout/me: necesitan leer la sesion (attachSession) pero NO pueden
+// requerir que ya exista una (por eso no llevan requireAuth).
+app.use("/api/auth", attachSession, authRouter);
+
+// Resto de la API: requiere sesion valida + aplica el aislamiento por
+// clientId cuando el usuario logueado es de tipo "client" (ej. Zerimar).
+app.use("/api", attachSession, requireAuth, enforceClientScope, apiRouter);
 
 app.use((_req, res) => {
   res.status(404).json({ message: "Recurso no encontrado" });

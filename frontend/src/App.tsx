@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { AppLayout } from "@/components/layout/AppLayout";
+import { LoginPage } from "@/modules/auth/LoginPage";
 import { DashboardPage } from "@/modules/dashboard/DashboardPage";
 import { ClientsPage } from "@/modules/clients/ClientsPage";
 import { ClientDetailPage } from "@/modules/clients/ClientDetailPage";
@@ -15,12 +17,34 @@ import { DocumentationPage } from "@/modules/documentation/DocumentationPage";
 import { MetricsPage } from "@/modules/metrics/MetricsPage";
 import { IntegrationsPage } from "@/modules/integrations/IntegrationsPage";
 import { SettingsPage } from "@/modules/settings/SettingsPage";
+import { useAppStore } from "@/store/useAppStore";
+import { registerUnauthorizedHandler } from "@/api/client";
+
+function RequireAuth({ children }: { children: React.ReactNode }) {
+  const authToken = useAppStore((s) => s.authToken);
+  if (!authToken) return <Navigate to="/login" replace />;
+  return <>{children}</>;
+}
 
 export default function App() {
+  const logout = useAppStore((s) => s.logout);
+
+  useEffect(() => {
+    // Si el backend responde 401 (token expirado/invalido), cerramos la sesion local.
+    registerUnauthorizedHandler(() => logout());
+  }, [logout]);
+
   return (
     <TooltipProvider delayDuration={200}>
       <Routes>
-        <Route element={<AppLayout />}>
+        <Route path="/login" element={<LoginPage />} />
+        <Route
+          element={
+            <RequireAuth>
+              <AppLayout />
+            </RequireAuth>
+          }
+        >
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/clientes" element={<ClientsPage />} />

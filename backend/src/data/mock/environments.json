@@ -106,5 +106,23 @@
     "projectId": "prj-gamma-marketplace",
     "name": "prod",
     "baseUrl": "https://prod.marketplace-web.com"
+  },
+  {
+    "id": "env-19",
+    "projectId": "prj-zerimar-web",
+    "name": "dev",
+    "baseUrl": "https://dev.website.com"
+  },
+  {
+    "id": "env-20",
+    "projectId": "prj-zerimar-web",
+    "name": "qa",
+    "baseUrl": "https://qa.website.com"
+  },
+  {
+    "id": "env-21",
+    "projectId": "prj-zerimar-web",
+    "name": "prod",
+    "baseUrl": "https://prod.website.com"
   }
 ]

@@ -6,7 +6,7 @@
     "industry": "Retail & E-commerce",
     "status": "active",
     "contactEmail": "qa-lead@alpharetail.com",
-    "createdAt": "2026-01-27T09:00:52.000Z"
+    "createdAt": "2026-02-18T09:00:52.000Z"
   },
   {
     "id": "cli-beta",
@@ -15,7 +15,7 @@
     "industry": "Manufactura",
     "status": "active",
     "contactEmail": "it@betamanufacturing.com",
-    "createdAt": "2026-03-28T09:00:22.000Z"
+    "createdAt": "2026-04-19T09:00:22.000Z"
   },
   {
     "id": "cli-gamma",
@@ -24,6 +24,17 @@
     "industry": "Marketplace",
     "status": "active",
     "contactEmail": "tech@gammamarket.com",
-    "createdAt": "2026-05-27T09:00:32.000Z"
+    "createdAt": "2026-06-18T09:00:32.000Z"
+  },
+  {
+    "id": "cli-zerimar",
+    "name": "Zerimar Software",
+    "slug": "zerimar",
+    "industry": "Desarrollo de Software (Salud, Banca y Mobile)",
+    "status": "active",
+    "contactEmail": "zerimarsoftware@automationsolutions.org",
+    "createdAt": "2026-08-09T09:00:02.000Z",
+    "logoUrl": "/logos/zerimar.png",
+    "primaryColor": "#7CB342"
   }
 ]

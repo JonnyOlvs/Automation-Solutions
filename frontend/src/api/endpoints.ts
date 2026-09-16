@@ -11,6 +11,7 @@ import {
   Integration,
   Project,
   Report,
+  SessionUser,
   TestCase,
   User
 } from "./types";
@@ -113,5 +114,11 @@ export const filtersApi = {
 };
 
 export const authApi = {
-  users: async (): Promise<User[]> => (await apiClient.get("/auth/users")).data
+  users: async (): Promise<User[]> => (await apiClient.get("/auth/users")).data,
+  login: async (email: string, password: string): Promise<{ token: string; user: SessionUser }> =>
+    (await apiClient.post("/auth/login", { email, password })).data,
+  logout: async (): Promise<void> => {
+    await apiClient.post("/auth/logout");
+  },
+  me: async (): Promise<SessionUser> => (await apiClient.get("/auth/me")).data
 };

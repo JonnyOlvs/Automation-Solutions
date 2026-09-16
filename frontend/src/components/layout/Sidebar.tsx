@@ -13,6 +13,7 @@ import {
   Settings
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useAppStore } from "@/store/useAppStore";
 
 const NAV_ITEMS = [
   { to: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
@@ -29,13 +30,21 @@ const NAV_ITEMS = [
 ];
 
 export function Sidebar() {
+  const client = useAppStore((s) => s.session?.client);
+
   return (
     <aside className="hidden w-64 shrink-0 flex-col border-r border-white/10 bg-brand-navy text-white lg:flex">
       <div className="flex items-center gap-2 px-5 py-5">
-        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-green font-bold">AS</div>
+        {client?.logoUrl ? (
+          <img src={client.logoUrl} alt={client.name} className="h-9 w-9 rounded-lg object-contain bg-white/5" />
+        ) : (
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-green font-bold">AS</div>
+        )}
         <div>
-          <p className="text-sm font-semibold leading-tight">Automated Solutions</p>
-          <p className="text-[11px] leading-tight text-white/50">QA Automation Platform</p>
+          <p className="text-sm font-semibold leading-tight">{client?.name ?? "Automated Solutions"}</p>
+          <p className="text-[11px] leading-tight text-white/50">
+            {client ? "Portal de QA Automation" : "QA Automation Platform"}
+          </p>
         </div>
       </div>
       <nav className="flex-1 space-y-1 overflow-y-auto px-3 pb-4 scrollbar-thin">

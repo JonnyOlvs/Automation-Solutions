@@ -8,8 +8,10 @@ import { documentsRouter } from "../modules/documents/documents.routes";
 import { integrationsRouter } from "../modules/integrations/integrations.routes";
 import { dashboardRouter } from "../modules/dashboard/dashboard.routes";
 import { filtersRouter } from "../modules/filters/filters.routes";
-import { authRouter } from "../modules/auth/auth.routes";
 
+// Nota: /api/auth (login/logout/me) se monta por separado en index.ts, ANTES
+// del middleware requireAuth, porque el login no puede requerir una sesion
+// que todavia no existe.
 export const apiRouter = Router();
 
 apiRouter.use("/clients", clientsRouter);
@@ -21,4 +23,3 @@ apiRouter.use("/documents", documentsRouter);
 apiRouter.use("/integrations", integrationsRouter);
 apiRouter.use("/dashboard", dashboardRouter);
 apiRouter.use("/filters", filtersRouter);
-apiRouter.use("/auth", authRouter);

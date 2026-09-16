@@ -100,5 +100,23 @@
     "projectId": "prj-gamma-marketplace",
     "name": "Visual Web",
     "type": "visual"
+  },
+  {
+    "id": "suite-18",
+    "projectId": "prj-zerimar-web",
+    "name": "Smoke Web",
+    "type": "smoke"
+  },
+  {
+    "id": "suite-19",
+    "projectId": "prj-zerimar-web",
+    "name": "Regresion Web",
+    "type": "regression"
+  },
+  {
+    "id": "suite-20",
+    "projectId": "prj-zerimar-web",
+    "name": "Visual Web",
+    "type": "visual"
   }
 ]

@@ -13,6 +13,8 @@ export interface Client {
   status: "active" | "inactive";
   contactEmail: string;
   createdAt: string;
+  logoUrl?: string;
+  primaryColor?: string;
 }
 
 export interface Project {

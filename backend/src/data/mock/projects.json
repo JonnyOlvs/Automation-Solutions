@@ -46,5 +46,13 @@
     "type": "Web",
     "status": "active",
     "repoFullName": "gamma-market/marketplace-web"
+  },
+  {
+    "id": "prj-zerimar-web",
+    "clientId": "cli-zerimar",
+    "name": "Zerimar Software - Sitio Web",
+    "type": "Web",
+    "status": "active",
+    "repoFullName": "zerimarsoftware/website"
   }
 ]

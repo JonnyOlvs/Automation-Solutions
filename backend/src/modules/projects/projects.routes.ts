@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { store } from "../../data/store";
 import { buildProjectSummary } from "../clients/clients.routes";
+import { assertClientOwnership } from "../../lib/auth";
 
 export const projectsRouter = Router();
 
@@ -13,6 +14,7 @@ projectsRouter.get("/", (req, res) => {
 projectsRouter.get("/:id", (req, res) => {
   const project = store.getProjectById(req.params.id);
   if (!project) return res.status(404).json({ message: "Proyecto no encontrado" });
+  if (!assertClientOwnership(req, res, project.clientId)) return;
 
   const [coverage] = store.getAutomationCoverage([project.id]);
   const [integration] = store.getIntegrations(project.id);

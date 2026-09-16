@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { store } from "../../data/store";
 import { parseExecutionFilters } from "../../lib/queryFilters";
+import { assertClientOwnership } from "../../lib/auth";
 
 export const executionsRouter = Router();
 
@@ -27,6 +28,7 @@ executionsRouter.get("/", (req, res) => {
 executionsRouter.get("/:id", (req, res) => {
   const execution = store.getExecutionById(req.params.id);
   if (!execution) return res.status(404).json({ message: "Ejecucion no encontrada" });
+  if (!assertClientOwnership(req, res, execution.clientId)) return;
 
   const testCases = store.getTestCases(execution.id);
   const evidences = store.getEvidences({ executionId: execution.id });
@@ -45,6 +47,8 @@ executionsRouter.get("/:id/testcases/:caseId", (req, res) => {
   if (!testCase || testCase.executionId !== req.params.id) {
     return res.status(404).json({ message: "Caso de prueba no encontrado" });
   }
+  const parentExecution = store.getExecutionById(testCase.executionId);
+  if (!assertClientOwnership(req, res, parentExecution?.clientId)) return;
   const evidences = store.getEvidences({ testCaseId: testCase.id });
   res.json({ ...testCase, evidences });
 });

@@ -54,5 +54,12 @@
     "email": "tech@gammamarket.com",
     "role": "client",
     "clientId": "cli-gamma"
+  },
+  {
+    "id": "usr-cli-zerimar",
+    "name": "Zerimar Software - Contacto",
+    "email": "zerimarsoftware@automationsolutions.org",
+    "role": "client",
+    "clientId": "cli-zerimar"
   }
 ]

@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { store } from "../../data/store";
+import { assertClientOwnership } from "../../lib/auth";
 
 export const clientsRouter = Router();
 
@@ -23,18 +24,25 @@ function buildClientSummary(clientId: string) {
   };
 }
 
-clientsRouter.get("/", (_req, res) => {
-  const clients = store.getClients().map((client) => ({ ...client, summary: buildClientSummary(client.id) }));
+clientsRouter.get("/", (req, res) => {
+  // req.query.clientId ya viene forzado por enforceClientScope si la sesion es de tipo "client".
+  const scopedClientId = typeof req.query.clientId === "string" ? req.query.clientId : undefined;
+  const clients = store
+    .getClients()
+    .filter((c) => !scopedClientId || c.id === scopedClientId)
+    .map((client) => ({ ...client, summary: buildClientSummary(client.id) }));
   res.json(clients);
 });
 
 clientsRouter.get("/:id", (req, res) => {
   const client = store.getClientById(req.params.id);
   if (!client) return res.status(404).json({ message: "Cliente no encontrado" });
+  if (!assertClientOwnership(req, res, client.id)) return;
   res.json({ ...client, summary: buildClientSummary(client.id) });
 });
 
 clientsRouter.get("/:id/projects", (req, res) => {
+  if (!assertClientOwnership(req, res, req.params.id)) return;
   const projects = store.getProjects(req.params.id);
   const enriched = projects.map((project) => buildProjectSummary(project.id, project));
   res.json(enriched);

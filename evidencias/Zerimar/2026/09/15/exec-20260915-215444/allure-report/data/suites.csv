@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4272","carga el home y muestra el hero principal","chromium","2026-09-15","passed","2026-09-15","Zerimar Software - Sitio Web @zerimar @smoke","","",""
+"","4201","muestra el catalogo de productos (Dr. Tuxedo y Lluvia de Letras)","chromium","2026-09-15","passed","2026-09-15","Zerimar Software - Sitio Web @zerimar @smoke","","",""
+"","4134","muestra el stack tecnologico del equipo","chromium","2026-09-15","passed","2026-09-15","Zerimar Software - Sitio Web @zerimar @smoke","","",""
+"","5927","muestra el proceso de trabajo y el contacto final","chromium","2026-09-15","passed","2026-09-15","Zerimar Software - Sitio Web @zerimar @smoke","","",""
