@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { Camera, Clapperboard, FileText, Waypoints, FileBarChart } from "lucide-react";
 import { executionsApi } from "@/api/endpoints";
+import { toStaticUrl } from "@/api/client";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -109,7 +110,7 @@ export function ExecutionDetailPage() {
             return (
               <a
                 key={ev.id}
-                href={ev.url}
+                href={toStaticUrl(ev.url)}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-md border border-border px-3 py-2 text-xs hover:bg-muted/50"
@@ -123,7 +124,7 @@ export function ExecutionDetailPage() {
           {execution.reports?.map((report) => (
             <a
               key={report.id}
-              href={report.url}
+              href={toStaticUrl(report.url)}
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 rounded-md border border-border px-3 py-2 text-xs hover:bg-muted/50"
@@ -162,7 +163,7 @@ export function ExecutionDetailPage() {
                     return (
                       <a
                         key={ev.id}
-                        href={ev.url}
+                        href={toStaticUrl(ev.url)}
                         target="_blank"
                         rel="noreferrer"
                         className="flex items-center gap-2 rounded-md border border-border px-3 py-2 text-xs hover:bg-muted/50"

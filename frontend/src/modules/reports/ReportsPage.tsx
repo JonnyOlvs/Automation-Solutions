@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { FileBarChart, ExternalLink } from "lucide-react";
 import { reportsApi } from "@/api/endpoints";
+import { toStaticUrl } from "@/api/client";
 import { useAppStore } from "@/store/useAppStore";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -53,7 +54,7 @@ export function ReportsPage() {
                 </TableCell>
                 <TableCell className="text-sm">{formatDuration(report.execution?.durationSeconds)}</TableCell>
                 <TableCell>
-                  <a href={report.url} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-xs text-brand-green hover:underline">
+                  <a href={toStaticUrl(report.url)} target="_blank" rel="noreferrer" className="flex items-center gap-1 text-xs text-brand-green hover:underline">
                     Abrir <ExternalLink className="h-3 w-3" />
                   </a>
                 </TableCell>

@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { BookOpen, ExternalLink } from "lucide-react";
 import { documentsApi } from "@/api/endpoints";
+import { toStaticUrl } from "@/api/client";
 import { useAppStore } from "@/store/useAppStore";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -35,7 +36,7 @@ export function DocumentationPage() {
       ) : (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {documents.map((doc) => (
-            <a key={doc.id} href={doc.url} target="_blank" rel="noreferrer">
+            <a key={doc.id} href={toStaticUrl(doc.url)} target="_blank" rel="noreferrer">
               <Card className="h-full transition-shadow hover:shadow-elevated">
                 <CardHeader className="flex-row items-start justify-between space-y-0">
                   <CardTitle className="text-sm text-foreground">{doc.title}</CardTitle>

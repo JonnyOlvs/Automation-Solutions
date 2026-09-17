@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { Github, Server, ListChecks, FileBarChart, BookOpen } from "lucide-react";
 import { projectsApi, executionsApi, documentsApi, reportsApi } from "@/api/endpoints";
+import { toStaticUrl } from "@/api/client";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -194,7 +195,7 @@ export function ProjectDetailPage() {
           </CardHeader>
           <CardContent className="space-y-1">
             {documents?.map((doc) => (
-              <a key={doc.id} href={doc.url} className="flex items-center justify-between rounded-md px-2 py-1.5 text-sm hover:bg-muted/50">
+              <a key={doc.id} href={toStaticUrl(doc.url)} className="flex items-center justify-between rounded-md px-2 py-1.5 text-sm hover:bg-muted/50">
                 <span>{doc.title}</span>
                 <Badge variant="outline">{doc.category}</Badge>
               </a>
@@ -211,7 +212,7 @@ export function ProjectDetailPage() {
             {reports?.slice(0, 8).map((report) => (
               <a
                 key={report.id}
-                href={report.url}
+                href={toStaticUrl(report.url)}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-between rounded-md px-2 py-1.5 text-sm hover:bg-muted/50"

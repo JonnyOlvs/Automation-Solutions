@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Camera, Clapperboard, FileText, Waypoints, FileBarChart, Image as ImageIcon, ChevronRight } from "lucide-react";
 import { evidencesApi } from "@/api/endpoints";
+import { toStaticUrl } from "@/api/client";
 import { useAppStore } from "@/store/useAppStore";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Badge } from "@/components/ui/badge";
@@ -73,7 +74,7 @@ export function EvidencesPage() {
                                 return (
                                   <a
                                     key={ev.id}
-                                    href={ev.url}
+                                    href={toStaticUrl(ev.url)}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="flex items-center gap-1.5 rounded-md border border-border bg-card px-2.5 py-1.5 text-xs hover:bg-muted/60"
